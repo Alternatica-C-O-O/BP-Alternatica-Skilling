@@ -23,9 +23,6 @@ FROM eclipse-temurin:21-jre-alpine
 WORKDIR /app
 
 # Copia el JAR construido de la fase anterior
-COPY --from=builder /app/backend/target/*.jar app.jar
-
-# Cambiar esto a:
 COPY --from=builder /app/backend/target/*.jar /app/app.jar
 
 # Expone el puerto
