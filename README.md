@@ -16,7 +16,7 @@
     <a href="https://supabase.com/"><img alt="Supabase" src="https://img.shields.io/badge/-Supabase-%23000?style=flat-square&logo=supabase&logoColor=white"></a>
     <a href="https://cloud.google.com/"><img alt="Google Cloud" src="https://img.shields.io/badge/-Google%20Cloud-%23000?style=flat-square&logo=googlecloud&logoColor=white"></a>
     <a href="https://firebase.google.com/"><img alt="Firebase" src="https://img.shields.io/badge/-Firebase-%23000?style=flat-square&logo=firebase&logoColor=white"></a>
-    <a href="https://railway.app/"><img alt="Railway" src="https://img.shields.io/badge/-Railway-%23000?style=flat-square&logo=railway&logoColor=white"></a>
+    <a href="https://render.com/"><img alt="Render" src="https://img.shields.io/badge/-Render-%23000?style=flat-square&logo=render&logoColor=white"></a>
     <a href="https://vercel.com/"><img alt="Vercel" src="https://img.shields.io/badge/-Vercel-%23000000?style=flat-square&logo=vercel&logoColor=white"></a>
     <a href="https://www.docker.com/"><img alt="Docker" src="https://img.shields.io/badge/-Docker-%23000?style=flat-square&logo=docker&logoColor=white"></a>
     <a href="https://swagger.io/"><img alt="Swagger" src="https://img.shields.io/badge/-Swagger-%23000?style=flat-square&logo=swagger&logoColor=white"></a>
