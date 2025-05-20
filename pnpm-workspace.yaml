@@ -1,4 +1,7 @@
 packages:
+  - 'docs/website'
   - 'backend'
+  - 'docs'
   - 'frontend'
   - 'shared'
+  - 'db'
