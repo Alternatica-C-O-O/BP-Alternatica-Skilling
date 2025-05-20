@@ -58,5 +58,5 @@ I decided to rank my skills by 2 categories: 'Top Skills' and 'Other Skills'. To
 ### Testing
 > Unit testing with React-Testing-Library/Jest. Still adding test coverage in the future, this site is nowhere near fully tested.
 
-### Proyectos Relacionados
->
+### Related Projects
+> Unit testing with React-Testing-Library/Jest. Still adding test coverage in the future, this site is nowhere near fully tested.
