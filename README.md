@@ -23,7 +23,7 @@
     <a href="https://www.uml.org/"><img alt="UML" src="https://img.shields.io/badge/-UML-%23000?style=flat-square&logo=uml&logoColor=white"></a>
     <a href="https://camunda.com/"><img alt="Camunda" src="https://img.shields.io/badge/-Camunda-%23000?style=flat-square&logo=camunda&logoColor=white"></a>
     <a href="https://tailwindcss.com/"><img alt="Tailwind CSS" src="https://img.shields.io/badge/-Tailwind%20CSS-%23000?style=flat-square&logo=tailwindcss&logoColor=white"></a>
-    <a href="https://mui.com/"><img alt="Material UI" src="https://img.shields.io/badge/-Material%20UI-%23000?style=flat-square&logo=mui&logoColor=white"></a>
+    <a href="https://daisyui.com/"><img alt="DaisyUI" src="https://img.shields.io/badge/-DaisyUI-%23000000?style=flat-square&logo=daisyui&logoColor=white"></a>
     <a href="https://git-scm.com/"><img alt="Git" src="https://img.shields.io/badge/-Git-%23000?style=flat-square&logo=git&logoColor=white"></a>
     <a href="https://maven.apache.org/"><img alt="Maven" src="https://img.shields.io/badge/-Maven-%23000?style=flat-square&logo=apachemaven&logoColor=white"></a>
     <a href="https://yaml.org/"><img alt="YAML" src="https://img.shields.io/badge/-YAML-%23000?style=flat-square&logo=yaml&logoColor=white"></a>
