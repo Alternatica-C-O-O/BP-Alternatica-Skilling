@@ -1,97 +1,29 @@
 #import "../src/lib.typ": *
 
-#show: cibertec-theme.with(
-  footer: self => self.info.title-short + [ $dot$ ] + self.info.author + [ $dot$ ] + self.info.date.display("[day].[month].[year]"),
-  config-info(
-    title: [Cibertec Theme \ im Corporate Design der UPB],
-    title-short: [Titulo de la Presentacion],
-    subtitle: [Subtitulo],
-    author: [Authors],
-    date: datetime.today(),
-    lang: "es",
+#set text(font: "Carlito", lang: "es")
+#show: skilling-presentation.with(
+  title: "",
+  authors: (
+    "Aquino Fernandez, Angie Lorena",
+    "Fournier Soto, Fabrizio Eduardo",
+    "Marcano Abreu, Jesús Francisco",
+    "Saavedra Guisvert, Natalia Dessyre",
+    "Rios Villegas, Diego Alessandro",
+    "Gallegos Yanarico, Jarem Joseph",
+  ),
+  date: datetime.today().display("[day] [month repr:long] [year]"),
+  course: "Desarrollo de Aplicaciones Web II",
+  educational-center: "CIBERTEC",
+  department: "Tecnologías de la Información",
+  department-full-title: "Computación e Informática",
+  address-i: "Av. Porongoche 500, Paucarpata",
+  address-ii: "(054) 603-535",
+  department-website: "www.cibertec.edu.pe",
+  teacher: "Alpaca Rendon, Jesús Antonio",
+  code: "4697",
+  cicle: "Sexto Ciclo",
+  before: (
+    content: include "preface/contents.typ",
+    readers-guide: include "preface/readers-guide.typ"
   )
 )
-
-#title-slide[
-  #lorem(40)
-]
-
-= #lorem(20)
-
-== Überschrift für eine Inhaltsfolie \ maximal zwei Zeilen
-
-#lorem(25)
-
-- Tabellen
-- Diagramme
-- SmartArts
-- Videos & Grafiken
-
-#lorem(20)
-
-== Folie mit zwei Spalten
-
-#grid(columns: 2, gutter: 2em, [
-
-=== Beschreibung
-
-- Dieser Folientyp ist ideal für die Gegenüberstellung von Inhalten.
-- Beispielsweise kann eine Spalte ein Bild oder Diagramm enthalten.
-- Dank Touying's Package Integration können wir beispielsweise Fletcher-Diagramme Stück für Stück aufdecken.
-#only("2-")[- So wie in diesem Graphen nun Knoten "d" aufgedeckt wurde.]
-
-], [
-
-=== Fletcher-Diagramm
-
-#{
-  import "@preview/fletcher:0.5.7" as fletcher: node, edge
-  let fletcher-diagram = touying-reducer.with(reduce: fletcher.diagram, cover: fletcher.hide)
-
-  let nodes = ("a", "e", "f", "g")
-  let coords = ((1, 0), (2, 1), (0, 2), (3, 2))
-  let edges = (
-    ("a", "e"),
-    ("a", "f"),
-    ("f", "e"),
-    ("f", "g"),
-    ("e", "g"),
-  )
-  fletcher-diagram({
-    for (i, n) in nodes.enumerate() {
-      node(coords.at(i), n, name: n, stroke: 0.5pt, shape: "circle")
-    }
-    for (from, to) in edges {
-      edge(label(from), label(to), "-")
-    }}, pause, {
-    node((1, 1), "d", name: "d", stroke: 0.5pt, shape: "circle" , fill: cibertec-colors.azul-cielo-40)
-    edge(label("a"), label("d"), "-")
-    edge(label("d"), label("e"), "-")
-  })
-}
-
-])
-
-== Verfügbare Farben
-#{
-  import table: cell
-
-  let cells = ()
-  for (name, color) in cibertec-colors {
-    cells.push(cell(
-      fill: color,
-      text(fill: if color.components().sum() > 280% {black} else {white}, name)
-    ))
-  }
-
-  block(
-    width: 92%,
-    height: 82%,
-    table(
-      columns: (1fr, 1fr, 1fr, 1fr, 1fr,),
-      rows: (1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr,),
-      align: center+horizon,
-      ..cells,
-    )
-  )
-}
