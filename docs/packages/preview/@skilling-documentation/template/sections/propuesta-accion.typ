@@ -1,3 +1,3 @@
-= Propuesta de Acción
+= Propuesta
 
 #pagebreak()

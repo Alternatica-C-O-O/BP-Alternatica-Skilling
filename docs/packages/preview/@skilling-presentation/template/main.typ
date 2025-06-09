@@ -2,7 +2,7 @@
 
 #set text(font: "Carlito", lang: "es")
 #show: skilling-presentation.with(
-  title: "",
+  title: "Diseño e Implementación de un Sistema de Gestión del Aprendizaje (LMS) Interactiva para la Optimización Dinámica del Proceso Educativo",
   authors: (
     "Aquino Fernandez, Angie Lorena",
     "Fournier Soto, Fabrizio Eduardo",

@@ -1,3 +1,21 @@
 = Alcance
+El alcance de este proyecto de investigación se define por el diseño y la implementación de un prototipo funcional de un Sistema de Gestión del Aprendizaje (LMS) interactivo, desarrollado bajo una arquitectura de monorepo y enfocado en la optimización dinámica del proceso educativo superior y especializado. La lógica central del sistema radica en la capacidad de facilitar una interacción activa entre administradores y alumnos, impulsando la mejora continua del proceso de enseñanza-aprendizaje a través de funcionalidades robustas y una arquitectura escalable basada en microservicios.
+
+El funcionamiento y diseño del LMS se basan en una arquitectura distribuida que separa las responsabilidades de frontend y backend. El frontend, desarrollado con Angular y alojado en Vercel, proporcionará una interfaz de usuario intuitiva y dinámica para estudiantes y educadores, facilitando el acceso a contenidos, la participación en foros y la gestión de actividades. El backend, compuesto por microservicios Java/Spring Boot (API Gateway, Users, Courses, Enrollment, Notifications, entre otros) alojados en Render, gestionará la lógica de negocio y la persistencia de datos. Para esto, se utilizará Supabase como solución de Base de Datos y BaaS (PostgreSQL, Auth, Storage, Edge Functions), garantizando escalabilidad y servicios esenciales. La autenticación y monitoreo se gestionarán mediante Google Cloud Platform (GCP Identity Platform y Cloud Monitoring/Logging), asegurando la seguridad y la visibilidad del sistema. La comunicación inter-servicio y la gestión de eventos complejos se implementarán con RabbitMQ y Kafka (en entornos de desarrollo vía Docker Compose, con previsión de servicios gestionados en producción).
+
+La lógica subyacente del proyecto se centra en la modularidad y la resiliencia. La estructura de microservicios permite un desarrollo ágil, despliegues independientes y una mayor tolerancia a fallos. La elección de software libre y código abierto (Angular, Spring Boot, PostgreSQL, Docker) maximiza la flexibilidad y la adaptabilidad del sistema a diferentes contextos, incluyendo entornos con recursos limitados, tal como se persigue en la democratización educativa. La implementación de Infraestructura como Código (IaC) con Terraform para provisionar recursos en GCP y Supabase, junto con la contenerización (Docker y Docker Compose), asegurará la reproducibilidad de los entornos y la eficiencia en el despliegue.
+
+== Documentación Técnica Entregada
+Para sustentar el correcto desarrollo, la especificación técnica y el alcance del proyecto, se generará y entregará la siguiente documentación integral, estructurada dentro del monorepo (docs/):
+
+- #strong("Documentación de Arquitectura: ")Incluye diagramas de arquitectura detallados, diseño de microservicios, estructura de la base de datos (SQL/migrations) y especificaciones de la interacción entre componentes del frontend y backend. Esta sección validará la coherencia técnica del sistema.
+
+- #strong("Documento de Requisitos Funcionales y No Funcionales: ")Producido a partir del análisis del contexto y los talleres de co-creación, este documento detalla las funcionalidades operativas del LMS y los atributos de calidad como rendimiento, seguridad, usabilidad y adaptabilidad a diversas condiciones de conectividad. Este documento servirá como la referencia primaria para la validación de la solución.
+
+- #strong("Prototipos y Maquetas de Interfaz de Usuario: ")Contiene los diseños visuales (mockups y wireframes) que representan la experiencia de usuario esperada, garantizando una interfaz intuitiva y accesible para educadores y estudiantes.
+
+- #strong("Documentación de Gestión del Ciclo de Vida del Proyecto: ")Incluye los documentos clave del ciclo de vida del proyecto, parcialmente alineados con estándares PMI, que describen las fases, hitos, roles y responsabilidades, así como planes de gestión de riesgos y comunicación.
+
+- #strong("Informe de Evaluación del Prototipo: ")Reporte técnico que detalla los resultados de las pruebas de funcionamiento (medición de operatividad y compatibilidad), usabilidad (mediante cuestionarios como SUS) y la percepción de valor por parte de los usuarios piloto, validando el impacto inicial del LMS en las competencias digitales y la optimización educativa.
 
 #pagebreak()

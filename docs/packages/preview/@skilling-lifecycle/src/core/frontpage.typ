@@ -28,9 +28,9 @@
     ),
   )
 
-  v(4em)
-  text(weight: 200, 13.5pt, "Documentos del Ciclo de VIda")
   v(1em)
+  text(weight: 200, 13.5pt, "Gestión del Ciclo de Vida del Proyecto")
+  v(0.1em)
   text(weight: 1000, 23.5pt, title)
   linebreak()
   v(0.9em)
@@ -52,7 +52,7 @@
     bottom, dx: -72%, dy: 19%,
     image("../images/CIBERTEC-sede-arequipa.jpg", width: 200%)
   )
-  v(43em)
+  v(43.5em)
   align(center, text(
     30pt, weight: 640, date.trim().find("2025"), fill: white
   ))

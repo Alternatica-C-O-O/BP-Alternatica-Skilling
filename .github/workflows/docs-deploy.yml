@@ -1,0 +1,55 @@
+name: Docs Deploy
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'docs/**'
+      - '.github/workflows/docs-deploy.yml'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'docs/**'
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Cache pnpm modules
+      uses: actions/cache@v4
+      with:
+        path: ~/.pnpm-store
+        key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
+        restore-keys: |
+          ${{ runner.os }}-pnpm-
+
+    - name: Install pnpm
+      run: npm install -g pnpm
+
+    - name: Install Docs Dependencies (Root `docs` and `website`)
+      run: |
+        cd docs/
+        pnpm install --frozen-lockfile # Instala dependencias del workspace `docs`
+
+    - name: Build Docusaurus Site
+      run: |
+        cd docs/website/ # Asegúrate de estar en el directorio del proyecto Docusaurus
+        pnpm run build
+      env:
+        NODE_OPTIONS: "--max-old-space-size=4096"
+
+    - name: Deploy Docs
+      run: |
+        echo "Simulando despliegue de la documentación..."
+        echo "La carpeta de salida del build de Docusaurus es: docs/website/build"
