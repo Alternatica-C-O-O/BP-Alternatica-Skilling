@@ -65,7 +65,7 @@
   // Custom Heading
   show heading.where(level: 1): it => custom-heading(it)
   set page(footer: context {
-    if calc.rem(here(),page(), 2) == 0 [
+    if calc.rem(here().page(), 2) == 0 [
       #text(current-h(level: 1))
       #h(1fr)
       #counter(page).display()

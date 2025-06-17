@@ -1,0 +1,22 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          #TODO: Cambiar la URI por la dirección del repositorio de GitHub
+          uri: file:///C:/lms-config-repo
+          search-paths:
+            - '{application}'
+          ignore-local-ssh-settings: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    fetch-registry: true
+    register-with-eureka: false

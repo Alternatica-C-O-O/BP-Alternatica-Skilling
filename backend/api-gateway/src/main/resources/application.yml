@@ -1,0 +1,160 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true # Habilita el enrutamiento automático basado en Eureka
+          lower-case-service-id: true # Permite que las URLs de Eureka sean case-insensitive
+
+      routes:
+        - id: users-service # ID único para esta ruta
+          uri: lb://USERS-SERVICE # lb:// para balanceo de carga vía Eureka
+          predicates:
+            - Path=/api/users/** # Todas las solicitudes que empiecen con /api/users
+          filters:
+            - RewritePath=/api/users/(?<remaining>.*), /${remaining} # Elimina /api/users del path
+            - name: CircuitBreaker
+              args:
+                name: usersService
+                fallbackUri: forward:/fallback/users # URI de fallback para este servicio
+
+        - id: curriculum-service
+          uri: lb://CURRICULUM-SERVICE
+          predicates:
+            - Path=/api/curriculum/**
+          filters:
+            - RewritePath=/api/curriculum/(?<remaining>.*), /${remaining}
+            - name: CircuitBreaker
+              args:
+                name: curriculumService
+                fallbackUri: forward:/fallback/curriculum
+
+        - id: resource-planning-service
+          uri: lb://RESOURCE-PLANNING-SERVICE
+          predicates:
+            - Path=/api/resource-planning/**
+          filters:
+            - RewritePath=/api/resource-planning/(?<remaining>.*), /${remaining}
+            - name: CircuitBreaker
+              args:
+                name: resourcePlanningService
+                fallbackUri: forward:/fallback/resource-planning
+
+        - id: enrollment-service
+          uri: lb://ENROLLMENT-SERVICE
+          predicates:
+            - Path=/api/enrollment/**
+          filters:
+            - RewritePath=/api/enrollment/(?<remaining>.*), /${remaining}
+            - name: CircuitBreaker
+              args:
+                name: enrollmentService
+                fallbackUri: forward:/fallback/enrollment
+
+        - id: content-service
+          uri: lb://CONTENT-SERVICE
+          predicates:
+            - Path=/api/content/**
+          filters:
+            - RewritePath=/api/content/(?<remaining>.*), /${remaining}
+            - name: CircuitBreaker
+              args:
+                name: contentService
+                fallbackUri: forward:/fallback/content
+
+        - id: assessments-service
+          uri: lb://ASSESSMENTS-SERVICE
+          predicates:
+            - Path=/api/assessments/**
+          filters:
+            - RewritePath=/api/assessments/(?<remaining>.*), /${remaining}
+            - name: CircuitBreaker
+              args:
+                name: assessmentsService
+                fallbackUri: forward:/fallback/assessments
+
+        - id: notifications-service
+          uri: lb://NOTIFICATIONS-SERVICE
+          predicates:
+            - Path=/api/notifications/**
+          filters:
+            - RewritePath=/api/notifications/(?<remaining>.*), /${remaining}
+            - name: CircuitBreaker
+              args:
+                name: notificationsService
+                fallbackUri: forward:/fallback/notifications
+
+        - id: reporting-service
+          uri: lb://REPORTING-SERVICE
+          predicates:
+            - Path=/api/reporting/**
+          filters:
+            - RewritePath=/api/reporting/(?<remaining>.*), /${remaining}
+            - name: CircuitBreaker
+              args:
+                name: reportingService
+                fallbackUri: forward:/fallback/reporting
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka # Apunta a tu Eureka Server
+    instance:
+      hostname: localhost
+
+resilience4j:
+  circuitbreaker:
+    instances:
+      usersService:
+        failureRateThreshold: 50
+        waitDurationInOpenState: 5s
+        permittedNumberOfCallsInHalfOpenState: 3
+        slidingWindowType: COUNT_BASED
+        slidingWindowSize: 10
+      curriculumService:
+        failureRateThreshold: 50
+        waitDurationInOpenState: 5s
+        permittedNumberOfCallsInHalfOpenState: 3
+        slidingWindowType: COUNT_BASED
+        slidingWindowSize: 10
+      resourcePlanningService:
+        failureRateThreshold: 50
+        waitDurationInOpenState: 5s
+        permittedNumberOfCallsInHalfOpenState: 3
+        slidingWindowType: COUNT_BASED
+        slidingWindowSize: 10
+      enrollmentService:
+        failureRateThreshold: 50
+        waitDurationInOpenState: 5s
+        permittedNumberOfCallsInHalfOpenState: 3
+        slidingWindowType: COUNT_BASED
+        slidingWindowSize: 10
+      contentService:
+        failureRateThreshold: 50
+        waitDurationInOpenState: 5s
+        permittedNumberOfCallsInHalfOpenState: 3
+        slidingWindowType: COUNT_BASED
+        slidingWindowSize: 10
+      assessmentsService:
+        failureRateThreshold: 50
+        waitDurationInOpenState: 5s
+        permittedNumberOfCallsInHalfOpenState: 3
+        slidingWindowType: COUNT_BASED
+        slidingWindowSize: 10
+      notificationsService:
+        failureRateThreshold: 50
+        waitDurationInOpenState: 5s
+        permittedNumberOfCallsInHalfOpenState: 3
+        slidingWindowType: COUNT_BASED
+        slidingWindowSize: 10
+      reportingService:
+        failureRateThreshold: 50
+        waitDurationInOpenState: 5s
+        permittedNumberOfCallsInHalfOpenState: 3
+        slidingWindowType: COUNT_BASED
+        slidingWindowSize: 10

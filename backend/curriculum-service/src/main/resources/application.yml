@@ -1,0 +1,40 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: users-service
+  r2dbc:
+    url: r2dbc:postgresql://<project-ref>.supabase.co:5432/<db-name>
+    username: postgres
+    password: <YOUR_SUPABASE_DB_PASSWORD>
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+# Configuración de Eureka Client
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    instance:
+      #TODO: Cambiar dado que se abrirá un contenedor docker
+      hostname: localhost 
+      # instance-id: ${spring.application.name}:${instanceId:${random.value}} # Opcional: ID única para cada instancia
+  
+# Para mostrar el dashboard de H2 si aplica
+# spring:
+#   h2:
+#     console:
+#       enabled: true
+#       path: /h2-console
+#   r2dbc:
+#     url: r2dbc:h2:mem:///testdb;DB_CLOSE_DELAY=-1;
+#     username: sa
+#     password:
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web.reactive: DEBUG # Depurar WebFlux
+    org.springframework.data.r2dbc: DEBUG # Depurar R2DBC

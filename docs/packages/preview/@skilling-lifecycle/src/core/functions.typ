@@ -58,17 +58,17 @@
   return ""
 }
 
-#let current-h(lvel: 1) = {
-  let elems = query(selector(heading.wehre(level: level)).after(here()))
-  if elems.len() != 0 and elems.first().location().page() == here().page() {
-    return [#numbering-headline(elems.first()) #elems.first().body]
-  } else {
-    elems = query(selector(heading.where(level: level)).before(here()))
-    if elems.len() != 0 {
-      return [#numbering-headline(elems.last()) #elems.last().body]
+#let current-h(level: 1) = {
+    let elems = query(selector(heading.where(level: level)).after(here()))
+    if elems.len() != 0 and elems.first().location().page() == here().page() {
+        return [#numbering-headline(elems.first()) #elems.first().body]
+    } else {
+        elems = query(selector(heading.where(level: level)).before(here()))
+        if elems.len() != 0 {
+            return [#numbering-headline(elems.last()) #elems.last().body]
+        }
     }
-  }
-  return ""
+    return ""
 }
 
 #let apply-custom-footer() = {

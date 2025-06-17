@@ -3,7 +3,7 @@
 ) = {
   set page(margin: auto)
   v(1fr)
-  text(weight: "bold", title)
+  text(weight: "bold", title + " [" + "Gestión del Ciclo de Vida del Proyecto" + "]")
   v(0.1em)
   text(course + " / " + date)
   v(1em)
