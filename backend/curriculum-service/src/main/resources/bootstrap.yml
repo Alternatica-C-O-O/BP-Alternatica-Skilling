@@ -1,8 +1,0 @@
-spring:
-  application:
-    name: curriculum-service
-  cloud:
-    config:
-      #TODO: Verificar si el config server sea la correcta
-      uri: http://localhost:8888
-      enabled: true

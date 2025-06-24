@@ -45,8 +45,5 @@
 #include "documents/seguridad-resiliencia.typ"
 #include "documents/integracion-despliegue.typ"
 #include "documents/monitoreo-logging.typ"
-#include "documents/trazabilidad-decisiones.typ"
-#include "documents/referencias.typ"
-#include "documents/anexos.typ"
 
 #pagebreak()

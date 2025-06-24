@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagrama formula="%t_%c" nombreProyecto="db_alternatica_skilling" nombreAutor="josephgallegos" version="8">
+  <DataBase>1</DataBase>
+  <lista-item>
+    <item type="modelo-tabla" id="{fc407f2b-d49e-4386-8067-8f5ecc7d0541}">
+      <nombre>usuarios</nombre>
+      <posicion>
+        <x>-456</x>
+        <y>-315</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="UUID" nulo="0" notas="" nombre="id" id="{72b0e800-a8cf-4a18-b388-78e72d80efdc}" llaveUnica="" llaveprimaria="1"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{ef9942b4-b2df-4b3e-b88d-8726e8b3e37d}">
+      <nombre>roles</nombre>
+      <posicion>
+        <x>-355</x>
+        <y>-313</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="UUID" nulo="0" notas="" nombre="id" id="{4d0962d6-780c-4eaa-bfff-72c52aff92a4}" llaveUnica="" llaveprimaria="1"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{a4a321c8-a04c-4f4f-bb6a-bb5ff7207247}">
+      <nombre>permisos</nombre>
+      <posicion>
+        <x>-253</x>
+        <y>-315</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="UUID" nulo="0" notas="" nombre="id" id="{31417844-363c-473b-996a-d9d009c22cd3}" llaveUnica="" llaveprimaria="1"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{b4763f4e-e844-4de3-8279-4dd4e7567c92}">
+      <nombre>rol_permiso</nombre>
+      <posicion>
+        <x>-412</x>
+        <y>-236</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="" nulo="0" notas="" nombre="id" id="{5d3372d6-d349-40bd-b86b-b7e5ae5e6c8f}" llaveUnica="" llaveprimaria="1"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{9760802f-6bcd-45ab-b0e3-2a8a489784a5}">
+      <nombre>plantilla_notificaciones</nombre>
+      <posicion>
+        <x>122</x>
+        <y>-509</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="" nulo="0" notas="" nombre="id" id="{f733f7f5-1c01-4216-903a-44e7af571d40}" llaveUnica="" llaveprimaria="1"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{b4ea7aea-c9b8-4357-844b-3751375cf3c5}">
+      <nombre>notificaciones</nombre>
+      <posicion>
+        <x>148</x>
+        <y>-391</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="" nulo="0" notas="" nombre="id" id="{97cbf768-698f-40cd-85b7-6bfcfeb0e51c}" llaveUnica="" llaveprimaria="1"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{48eb3494-c671-40b9-ba5f-f3806689f21c}">
+      <nombre>inscripcion</nombre>
+      <posicion>
+        <x>162</x>
+        <y>-303</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="" nulo="0" notas="" nombre="id" id="{1be48608-b459-427c-bab8-1ca83f35b388}" llaveUnica="" llaveprimaria="1"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{5a49ced9-200b-4b30-aeeb-8a63e9d6722d}">
+      <nombre>foro</nombre>
+      <posicion>
+        <x>162</x>
+        <y>-211</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="" nulo="0" notas="" nombre="id" id="{1901ef16-8d13-473d-ad68-370f4979213f}" llaveUnica="" llaveprimaria="1"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{0efaa6e0-39c0-440b-ab30-c323bf1cef94}">
+      <nombre>mensaje</nombre>
+      <posicion>
+        <x>-74</x>
+        <y>-240</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="" nulo="0" notas="" nombre="id" id="{c5ad57da-3b70-4017-a936-90b869a43f93}" llaveUnica="" llaveprimaria="1"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{1abf6b53-fc2f-44d8-9025-1e0c5be6f58f}">
+      <nombre>seguimiento_progreso</nombre>
+      <posicion>
+        <x>-95</x>
+        <y>-343</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="" nulo="0" notas="" nombre="id" id="{c3d972d6-17c7-444e-a289-74d3ba9225b9}" llaveUnica="" llaveprimaria="1"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{21d1d9db-8e2d-4b46-9fb0-a42d32095928}">
+      <nombre>asistencia</nombre>
+      <posicion>
+        <x>-83</x>
+        <y>-168</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="" nulo="0" notas="" nombre="id" id="{9f548e9a-f771-49b2-b729-3bf985f5f122}" llaveUnica="" llaveprimaria="1"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{1f33aeb5-5e89-4d10-8e24-368d4b2a2db8}">
+      <nombre>publicacion_foro</nombre>
+      <posicion>
+        <x>14</x>
+        <y>-240</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="" nulo="0" notas="" nombre="id" id="{1da1d0bf-be13-4a70-b75f-f009f6bd77ad}" llaveUnica="" llaveprimaria="1"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{59173ed0-13a4-4fd0-a34e-47fc5567a58a}">
+      <nombre>log_actividad</nombre>
+      <posicion>
+        <x>3</x>
+        <y>-447</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="" nulo="0" notas="" nombre="id" id="{b54099f7-d334-4349-a2af-f5d457ba2778}" llaveUnica="" llaveprimaria="1"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{018dfe82-d100-43da-89b7-9ff6b142f86e}">
+      <nombre>reporte_generado</nombre>
+      <posicion>
+        <x>-149</x>
+        <y>-425</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="" nulo="0" notas="" nombre="id" id="{09682147-560a-4e03-a753-9b939be45bef}" llaveUnica="" llaveprimaria="1"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{286e1a1b-d997-4d84-9f85-05d811c76331}">
+      <nombre>recurso_didactico</nombre>
+      <posicion>
+        <x>-309</x>
+        <y>-418</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="" nulo="0" notas="" nombre="id" id="{2980b3bd-6589-4dea-ad61-5ee5fec5d0fa}" llaveUnica="" llaveprimaria="1"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{3bb7d402-764d-46bb-bb0b-7e2efbd05e06}">
+      <nombre>contenido_modulo</nombre>
+      <posicion>
+        <x>-432</x>
+        <y>-406</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="" nulo="0" notas="" nombre="id" id="{e809ffa0-a5cc-4e10-8c86-2a104db90687}" llaveUnica="" llaveprimaria="1"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{b02556d4-bc7b-493a-9086-59c5ac817dec}">
+      <nombre>asignacion_horario</nombre>
+      <posicion>
+        <x>-549</x>
+        <y>-392</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="" nulo="0" notas="" nombre="id" id="{22f2286a-e6c8-439d-9381-dbfe1fe2e133}" llaveUnica="" llaveprimaria="1"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{2324d486-8d8b-4b0e-8e94-4db3bc359825}">
+      <nombre>periodo_academico</nombre>
+      <posicion>
+        <x>-496</x>
+        <y>-536</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="" nulo="0" notas="" nombre="id" id="{2a56415a-1afc-4d5c-bb8d-b24ca9cb90ce}" llaveUnica="" llaveprimaria="1"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{88e00164-5f7e-464b-8e2e-c715b5f616d8}">
+      <nombre>espacio_fisico</nombre>
+      <posicion>
+        <x>-255</x>
+        <y>-535</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="" nulo="0" notas="" nombre="id" id="{75f0da8c-f280-42e9-b986-2060daed7776}" llaveUnica="" llaveprimaria="1"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{e565b9ea-7746-4f8d-a337-93bcd498d955}">
+      <nombre>plataforma_virtual</nombre>
+      <posicion>
+        <x>-99</x>
+        <y>-533</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="" nulo="0" notas="" nombre="id" id="{db20663c-1f4d-47c6-a1ca-4b08641d4d49}" llaveUnica="" llaveprimaria="1"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{ce311a9c-7d69-46ac-a23a-aa94e264974b}">
+      <nombre>plan_precio</nombre>
+      <posicion>
+        <x>63</x>
+        <y>-596</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="" nulo="0" notas="" nombre="id" id="{0f9cbfba-3054-47bd-a9ca-d16707a94e81}" llaveUnica="" llaveprimaria="1"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{835c376c-dbe0-4783-8605-4b7ccb3ec8e1}">
+      <nombre>transaccion_pago</nombre>
+      <posicion>
+        <x>-151</x>
+        <y>-604</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="" nulo="0" notas="" nombre="id" id="{3ff5a7c1-9d74-4228-91d3-69f8dec76967}" llaveUnica="" llaveprimaria="0"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{371c9fc5-0d80-4b5b-8605-c25d75cf84a5}">
+      <nombre>curso_ofertado</nombre>
+      <posicion>
+        <x>-300</x>
+        <y>-609</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="" nulo="0" notas="" nombre="id" id="{e9869b36-0c27-4db8-adb3-e01196ecb08a}" llaveUnica="" llaveprimaria="1"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{0b83147f-10cc-4a0e-a2bc-06f288420930}">
+      <nombre>modelo_educativo</nombre>
+      <posicion>
+        <x>-422</x>
+        <y>-604</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="" nulo="0" notas="" nombre="id" id="{c82f1eca-f833-49c7-8879-34bae7fbf8d6}" llaveUnica="" llaveprimaria="1"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{4b674be1-37d0-4b65-869c-7bb58c693373}">
+      <nombre>plan_estudio</nombre>
+      <posicion>
+        <x>-630</x>
+        <y>-489</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="" nulo="0" notas="" nombre="id" id="{af17fe54-ed50-4513-ac39-b4fe996cd429}" llaveUnica="" llaveprimaria="1"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{38b4f1bd-9d3b-4432-9c86-1de1937f285c}">
+      <nombre>perfil_curricular</nombre>
+      <posicion>
+        <x>-575</x>
+        <y>-311</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="" nulo="0" notas="" nombre="id" id="{ee65d0a0-fe49-4995-be44-c5953fb1aa6c}" llaveUnica="" llaveprimaria="1"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{7c994f65-b154-4622-9db5-ffb5e3bb25f4}">
+      <nombre>perfil_competencia</nombre>
+      <posicion>
+        <x>-775</x>
+        <y>-381</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="" nulo="0" notas="" nombre="" id="{5ce5fec6-f144-4a5f-9f7d-dbef2b61396a}" llaveUnica="" llaveprimaria="0"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{66e9830d-6a6e-4771-ae4b-0158bad0873a}">
+      <nombre>competencia</nombre>
+      <posicion>
+        <x>-715</x>
+        <y>-581</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="" nulo="0" notas="" nombre="id" id="{57d9a3ca-594b-4862-80fe-b8f6aed87dfc}" llaveUnica="" llaveprimaria="1"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{a6a5235b-a22d-49d9-bd75-51314a8d4e44}">
+      <nombre>modulo</nombre>
+      <posicion>
+        <x>-553</x>
+        <y>-608</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="" nulo="0" notas="" nombre="id" id="{073ed6e5-aba0-49c3-95d4-04a9076a72bc}" llaveUnica="" llaveprimaria="1"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{550208ab-d0fd-4b6a-95c3-c54a38b89345}">
+      <nombre>evaluacion</nombre>
+      <posicion>
+        <x>-411</x>
+        <y>-669</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="" nulo="0" notas="" nombre="id" id="{5c38d0f3-8bf0-40a5-8b49-4a9880e726b9}" llaveUnica="" llaveprimaria="1"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{db0d2d08-e11f-4dcd-aa2c-9c9bc3ee556f}">
+      <nombre>certificado</nombre>
+      <posicion>
+        <x>-271</x>
+        <y>-672</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="" nulo="0" notas="" nombre="id" id="{b2e25c4e-cf18-440e-b085-c9ade8ee3ab1}" llaveUnica="" llaveprimaria="0"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{8ef4b5a0-be98-4058-8232-94c9b7858725}">
+      <nombre>calificacion</nombre>
+      <posicion>
+        <x>-120</x>
+        <y>-652</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="" nulo="0" notas="" nombre="id" id="{5d2dabc1-b002-4427-8d3d-f16be3558c1b}" llaveUnica="" llaveprimaria="1"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{df6a39ee-ce35-4d50-a7b4-1c48139d4a3d}">
+      <nombre>usuario_role</nombre>
+      <posicion>
+        <x>32</x>
+        <y>-670</y>
+      </posicion>
+      <lista-columnas/>
+    </item>
+    <item type="modelo-tabla" id="{4d58767a-5ef5-47c8-afb7-30d461ee3864}">
+      <nombre>curso_prerequisito</nombre>
+      <posicion>
+        <x>-659</x>
+        <y>-734</y>
+      </posicion>
+      <lista-columnas>
+        <columna tipoDato="" nulo="0" notas="" nombre="id" id="{59ceef2d-5f98-4ab8-94a8-cd95559107a5}" llaveUnica="" llaveprimaria="1"/>
+      </lista-columnas>
+    </item>
+  </lista-item>
+</diagrama>

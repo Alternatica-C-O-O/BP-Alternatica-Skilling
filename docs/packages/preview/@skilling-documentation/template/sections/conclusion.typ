@@ -1,13 +1,13 @@
 = Conclusiones
 
-- #strong("PRIMERO")
+#strong("PRIMERO")
 
-- #strong("SEGUNDO")
+#strong("SEGUNDO")
 
-- #strong("TERCERO")
+#strong("TERCERO")
 
-- #strong("CUARTO")
+#strong("CUARTO")
 
-- #strong("QUINTO")
+#strong("QUINTO")
 
 #pagebreak()

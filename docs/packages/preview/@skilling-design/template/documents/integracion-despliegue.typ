@@ -1,4 +1,4 @@
-= Integración / Despliegue Continuo (CI/CD)
+= Despliegue Continuo (CI/CD)
 
 == Estrategia General de CI/CD
 == Herramientas CI/CD

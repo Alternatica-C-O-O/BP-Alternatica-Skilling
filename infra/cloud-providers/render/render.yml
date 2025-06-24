@@ -1,0 +1,74 @@
+# render.yml
+# Definicion de servicios para desplegar en Render
+
+services:
+  # Eureka Service
+  - type: web
+    name: service-discovery
+    dockerfilePath: backend/service-discovery/Dockerfile
+    buildCommand: "mvn clean install -DskipTests"
+    startCommand: "java -jar service-discovery/target/*.jar"
+    healthCheckPath: /actuator/health
+    port: 8761
+    envVars: 
+      - key: SPRING_PROFILES_ACTIVE
+        value: prod 
+      - key: EUREKA_SERVER_PORT
+        value: 8761
+
+  # Config Server
+  - type: web
+    name: config-server
+    env: docker
+    dockerfilePath: backend/config-server/Dockerfile
+    buildCommand: "mvn clean install -DskipTests"
+    startCommand: "java -jar config-server/target/*.jar"
+    healthCheckPath: /actuator/health
+    port: 8888
+    envVars:
+      - key: SPRING_PROFILES_ACTIVE
+        value: prod
+      - key: SPRING_SECURITY_USER_NAME
+        value: ${CONFIG_SERVER_USERNAME}
+      - key: SPRING_SECURITY_USER_PASSWORD
+        value: ${CONFIG_SERVER_PASSWORD}
+  
+  # API Gateway
+  - type: web
+    name: api-gateway
+    env: docker
+    dockerfilePath: backend/api-gateway/Dockerfile
+    buildCommand: "mvn clean install -DskipTests"
+    startCommand: "java -jar api-gateway/target/*.jar"
+    healthCheckPath: /actuator/health
+    port: 8080
+    envVars:
+      - key: SPRING_PROFILES_ACTIVE
+        value: prod
+      - key: EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE
+        value: http://service-discovery:8761/eureka
+      - key: SPRING_CLOUD_CONFIG_URI
+        value: http://config-server:8888
+  
+  # Users Service
+  - type: web
+    name: users-service
+    env: docker
+    dockerfilePath: backend/users-service/Dockerfile
+    buildCommand: "mvn clean install -DskipTests"
+    startCommand: "java -jar users-service/target/*.jar"
+    healthCheckPath: /actuator/health
+    port: 8081
+    envVars:
+      - key: SPRING_PROFILES_ACTIVE
+        value: prod
+      - key: EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE
+        value: http://service-discovery:8761/eureka
+      - key: SPRING_CLOUD_CONFIG_URI
+        value: http://config-server:8888
+      - key: SPRING_R2DBC_URL
+        value: ${DATABASE_URL}
+      - key: SPRING_R2DBC_USERNAME
+        value: ${DATABASE_USERNAME}
+      - key: SPRING_R2DBC_PASSWORD
+        value: ${DATABASE_PASSWORD}

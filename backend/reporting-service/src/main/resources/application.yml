@@ -1,23 +1,8 @@
-server:
-  port: 8088
-
 spring:
   application:
     name: reporting-service
-  r2dbc:
-    url: r2dbc:postgresql://<project-ref>.supabase.co:5432/<db-name> 
-    username: postgres
-    password: <YOUR_SUPABASE_DB_PASSWORD>
-  jpa:
-    hibernate:
-      ddl-auto: update
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka # Apunta a tu Eureka Server
-    instance:
-      hostname: localhost
+  config:
+    import: "configserver:http://localhost:8888"
 
 resilience4j:
   circuitbreaker:

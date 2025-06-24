@@ -1,4 +1,4 @@
-= Monitoreo, Observabilidad y Logging
+= Telemetría y Logging
 
 == Estrategia de Monitoreo
 == Trazabilidad Distribuida

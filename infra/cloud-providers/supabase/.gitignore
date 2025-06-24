@@ -1,0 +1,5 @@
+.terraform/
+*.tf
+*.tfstate
+access-token
+.terraform.lock.hcl

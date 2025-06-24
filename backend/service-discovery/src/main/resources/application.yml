@@ -1,1 +1,15 @@
-spring.application.name=service-discovery
+server:
+  port: 8761
+
+spring:
+  applications:
+    name: service-discovery
+
+eureka:
+  server:
+    wait-time-in-ms-when-sync-empty: 0
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+  instance:
+    hostname: localhost

@@ -1,7 +1,0 @@
-spring:
-  application:
-    name: reporting-service
-  cloud:
-    config:
-      uri: http://localhost:8888 # URL de tu Config Server
-      enabled: true

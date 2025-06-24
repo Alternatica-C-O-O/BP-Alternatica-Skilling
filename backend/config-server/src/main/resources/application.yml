@@ -8,15 +8,17 @@ spring:
     config:
       server:
         git:
-          #TODO: Cambiar la URI por la dirección del repositorio de GitHub
-          uri: file:///C:/lms-config-repo
+          uri: https://github.com/Alternatica-C-O-O/skilling-config-repo.git
           search-paths:
             - '{application}'
-          ignore-local-ssh-settings: true
+          default-label: master
 
 eureka:
   client:
+    fetch-registry: true
+    register-with-eureka: true
     service-url:
       defaultZone: http://localhost:8761/eureka
-    fetch-registry: true
-    register-with-eureka: false
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
