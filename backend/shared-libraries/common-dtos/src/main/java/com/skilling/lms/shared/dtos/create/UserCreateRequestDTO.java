@@ -1,6 +1,6 @@
 package com.skilling.lms.shared.dtos.create;
 
-import com.skilling.lms.shared.models.enums.UserType;
+import com.skilling.lms.shared.models.enums.UsuarioTipo;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
@@ -19,5 +19,5 @@ public record UserCreateRequestDTO(
     @Size(min = 8, message = "La contraseña debe tener al menos 8 caracteres")
     String password,
     @NotNull(message = "El tipo de usuario es requerido")
-    UserType tipo_usuario
+    UsuarioTipo tipo_usuario
 ) {}

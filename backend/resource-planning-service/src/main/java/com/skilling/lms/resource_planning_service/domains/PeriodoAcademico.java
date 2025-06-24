@@ -8,30 +8,31 @@ import org.springframework.data.relational.core.mapping.Column;
 import org.springframework.data.relational.core.mapping.Table;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
 @Table("periodo_academico")
 public class PeriodoAcademico {
-	@Id
+
+    @Id
 	@Column("id")
-	private UUID id;
+    private UUID id;
 
-	@Column("nombre")
-	private String nombre;
+    private String nombre;
 
-	@Column("fecha_inicio")
-	private LocalDate fechaInicio;
+    @Column("fecha_inicio")
+    private LocalDate fechaInicio;
 
-	@Column("fecha_fin")
-	private LocalDate fechaFin;
+    @Column("fecha_fin")
+    private LocalDate fechaFin;
 
-	@Column("estado")
-	private String estado;
+    private String estado;
 
-	@Column("tipo_periodo")
-	private String tipoPeriodo;
+    @Column("tipo_periodo")
+    private String tipoPeriodo;
 }

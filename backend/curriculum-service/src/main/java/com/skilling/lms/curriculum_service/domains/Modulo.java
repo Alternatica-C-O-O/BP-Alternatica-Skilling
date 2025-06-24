@@ -1,6 +1,5 @@
-package com.skilling.lms.users_service.domains;
+package com.skilling.lms.curriculum_service.domains;
 
-import java.util.Set;
 import java.util.UUID;
 
 import org.springframework.data.annotation.Id;
@@ -8,21 +7,29 @@ import org.springframework.data.relational.core.mapping.Column;
 import org.springframework.data.relational.core.mapping.Table;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Table("roles")
-public class Role {
+@Table("modulo")
+public class Modulo {
 
     @Id
-    @Column("id")
     private UUID id;
 
-    @Column("nombre_rol")
-    private String nombreRol;
+    @Column("nombre_modulo")
+    private String nombreModulo;
+
+    private Integer orden;
     private String descripcion;
-    private Set<Permission> permisoos;
+
+    @Column("objetivos_aprendizaje")
+    private String objetivosAprendizaje;
+
+    @Column("curso_ofertado_id")
+    private UUID cursoOfertadoId; // Foreign key
 }

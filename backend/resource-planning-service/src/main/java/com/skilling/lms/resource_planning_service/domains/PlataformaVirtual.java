@@ -6,28 +6,30 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Column;
 import org.springframework.data.relational.core.mapping.Table;
 
+import com.skilling.lms.shared.models.enums.PlataformaVirtualTipo;
+
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
 @Table("plataforma_virtual")
 public class PlataformaVirtual {
-	@Id
+
+    @Id
 	@Column("id")
-	private UUID id;
+    private UUID id;
 
-	@Column("nombre_plataforma")
-	private String nombrePlataforma;
+    @Column("nombre_plataforma")
+    private String nombrePlataforma;
 
-	@Column("url")
-	private String url;
-
-	@Column("tipo")
-	private String tipo;
-
-	@Column("credenciales_api")
-	private String credencialesApi; // Sensitive
+    private String url;
+    private PlataformaVirtualTipo tipo;
+	
+    @Column("credenciales_api")
+    private String credencialesApi; // Podría ser JSON o un String cifrado
 }

@@ -31,6 +31,7 @@
         <module>assessments-service</module> <!--REALIZADO -->
         <module>notifications-service</module> <!--REALIZADO -->
         <module>reporting-service</module> <!--REALIZADO -->
+        <module>financial-service</module> <!--REALIZADO -->
         <module>shared-libraries</module> <!--REALIZADO --> 
     </modules>
 

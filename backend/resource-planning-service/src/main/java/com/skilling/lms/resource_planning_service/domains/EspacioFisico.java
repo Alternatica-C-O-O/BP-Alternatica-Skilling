@@ -6,28 +6,29 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Column;
 import org.springframework.data.relational.core.mapping.Table;
 
+import com.skilling.lms.shared.models.enums.EspacioTipo;
+
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
 @Table("espacio_fisico")
 public class EspacioFisico {
+	    
 	@Id
 	@Column("id")
-	private UUID id;
+    private UUID id;
 
-	@Column("nombre")
-	private String nombre;
-
-	@Column("capacidad")
-	private Integer capacidad;
-
+    private String nombre;
+    private Integer capacidad;
+    
 	@Column("tipo_espacio")
-	private String tipoEspacio; // Ejemplo: Recepción, Laboratorio, Sala de cómputo, etc
-
-	@Column("ubicacion")
-	private String ubicacion; // Dirección
+    private EspacioTipo tipoEspacio;
+    
+	private String ubicacion;
 }

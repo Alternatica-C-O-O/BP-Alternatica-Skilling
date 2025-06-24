@@ -1,22 +1,27 @@
 package com.skilling.lms.shared.models.enums;
 
-public enum UserType {
-    ESTUDIANTE("Estudiante"),
-    DOCENTE("Docente"),
-    ADMIN("Admin");
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+
+public enum EspacioTipo {
+    AULA("AULA"),
+    LAB("LAB"),
+    SALA("SALA");
 
     private final String value;
 
-    UserType(String value) {
+    EspacioTipo(String value) {
         this.value = value;
     }
 
+    @JsonValue
     public String getValue() {
         return value;
     }
 
-    public static UserType fromValue(String text) {
-        for (UserType b : UserType.values()) {
+    @JsonCreator
+    public static EspacioTipo fromValue(String text) {
+        for (EspacioTipo b : EspacioTipo.values()) {
             if (String.valueOf(b.value).equalsIgnoreCase(text)) {
                 return b;
             }

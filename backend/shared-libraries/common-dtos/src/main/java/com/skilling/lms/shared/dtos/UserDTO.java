@@ -3,7 +3,7 @@ package com.skilling.lms.shared.dtos;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
-import com.skilling.lms.shared.models.enums.UserType;
+import com.skilling.lms.shared.models.enums.UsuarioTipo;
 
 public record UserDTO(
     UUID usuario_id,
@@ -12,5 +12,5 @@ public record UserDTO(
     String email, 
     LocalDateTime fecha_registro,
     Boolean estado_activo,
-    UserType tipo_usuario
+    UsuarioTipo tipo_usuario
 ) {}
