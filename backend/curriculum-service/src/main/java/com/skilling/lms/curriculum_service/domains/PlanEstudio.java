@@ -7,6 +7,8 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Column;
 import org.springframework.data.relational.core.mapping.Table;
 
+import com.skilling.lms.shared.models.enums.GeneralEstado;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -31,7 +33,7 @@ public class PlanEstudio {
     @Column("fecha_aprobacion")
     private LocalDate fechaAprobacion;
 
-    private String estado;
+    private GeneralEstado estado;
 
     @Column("fecha_ultima_actualizacion")
     private LocalDate fechaUltimaActualizacion;

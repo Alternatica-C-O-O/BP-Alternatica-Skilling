@@ -8,6 +8,7 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Column;
 import org.springframework.data.relational.core.mapping.Table;
 
+import com.skilling.lms.shared.models.enums.MetodoPagoTipo;
 import com.skilling.lms.shared.models.enums.PagoEstado;
 
 import lombok.AllArgsConstructor;
@@ -33,7 +34,7 @@ public class TransaccionPago {
     private LocalDateTime fechaTransaccion;
 
     @Column("metodo_pago")
-    private String metodoPago;
+    private MetodoPagoTipo metodoPago;
 
     @Column("estado_pago")
     private PagoEstado estadoPago;

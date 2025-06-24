@@ -7,6 +7,8 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Column;
 import org.springframework.data.relational.core.mapping.Table;
 
+import com.skilling.lms.shared.models.enums.GeneralEstado;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -32,7 +34,7 @@ public class ModeloEducativo {
     @Column("fecha_creacion")
     private LocalDate fechaCreacion;
 
-    private String estado;
+    private GeneralEstado estado;
 
     @Column("usuarios_id")
     private UUID usuariosId; // Foreign key (creador/editor)

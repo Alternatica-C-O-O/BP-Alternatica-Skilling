@@ -7,7 +7,7 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Column;
 import org.springframework.data.relational.core.mapping.Table;
 
-import com.skilling.lms.shared.models.enums.FacturacionTipo;
+import com.skilling.lms.shared.models.enums.PlanPrecioTipo;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -33,7 +33,7 @@ public class PlanPrecio {
     @Column("fecha_aprobacion")
     private LocalDate fechaAprobacion;
 
-    private FacturacionTipo estado;
+    private PlanPrecioTipo estado;
 
     @Column("fecha_ultima_actualizacion")
     private LocalDate fechaUltimaActualizacion;

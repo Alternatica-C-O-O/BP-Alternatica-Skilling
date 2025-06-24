@@ -3,14 +3,17 @@ package com.skilling.lms.shared.models.enums;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonValue;
 
-public enum FacturacionTipo {
-    MENSUAL("MENSUAL"),
-    CURSO("CURSO"),
-    ANUAL("ANUAL");
+public enum GeneralEstado {
+    ACTIVO("ACTIVO"),
+    INACTIVO("INACTIVO"),
+    PENDIENTE("PENDIENTE"),
+    BORRADOR("BORRADOR"),
+    ARCHIVADO("ARCHIVADO"),
+    ELIMINADO("ELIMINADO");
 
     private final String value;
 
-    FacturacionTipo(String value) {
+    GeneralEstado(String value) {
         this.value = value;
     }
 
@@ -20,8 +23,8 @@ public enum FacturacionTipo {
     }
 
     @JsonCreator
-    public static FacturacionTipo fromValue(String text) {
-        for (FacturacionTipo b : FacturacionTipo.values()) {
+    public static GeneralEstado fromValue(String text) {
+        for (GeneralEstado b : GeneralEstado.values()) {
             if (String.valueOf(b.value).equalsIgnoreCase(text)) {
                 return b;
             }
