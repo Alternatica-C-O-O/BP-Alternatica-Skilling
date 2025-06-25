@@ -3,6 +3,8 @@ spring:
     name: content-service
   config:
     import: "configserver:http://localhost:8888"
+SUPABASE_PROJECT_REF_IMPORTED: jtnsigjcpxhkxhpbotkv
+SUPABASE_DB_PASSWORD: alternatica-skilling
 
 resilience4j:
   circuitbreaker:
