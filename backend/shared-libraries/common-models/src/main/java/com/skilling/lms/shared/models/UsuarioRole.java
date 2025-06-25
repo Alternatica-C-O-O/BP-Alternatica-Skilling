@@ -1,6 +1,8 @@
 package com.skilling.lms.shared.models;
 
-import org.springframework.data.annotation.Id;
+import java.util.UUID;
+
+import org.springframework.data.relational.core.mapping.Column;
 import org.springframework.data.relational.core.mapping.Table;
 
 import lombok.AllArgsConstructor;
@@ -15,9 +17,10 @@ import lombok.NoArgsConstructor;
 @Table("usuario_role")
 public class UsuarioRole {
 
-    @Id
-    private UsuarioRoleId id;
-    
-    // @Transient private Usuario usuario;
-    // @Transient private Rol rol;
+    @Column("usuarios_id")
+    private UUID usuariosId;
+
+    @Column("roles_id")
+    private UUID rolesId;
+
 }

@@ -5,8 +5,8 @@ import com.fasterxml.jackson.annotation.JsonValue;
 
 public enum UsuarioTipo {
     ESTUDIANTE("ESTUDIANTE"),
-    DOCENTE("PROFESOR"),
-    ADMIN("ADMINISTRADOR"),
+    PROFESOR("PROFESOR"),
+    ADMINISTRADOR("ADMINISTRADOR"),
     INVITADO("INVITADO");
 
     private final String value;

@@ -20,7 +20,7 @@ spring:
               predicates:
                 - Path=/api/users/**
               filters:
-                - RewritePath=/api/users/(?<remaining>.*), /${remaining}
+                - RewritePath=/api/users(?<remaining>.*), /api${remaining}
                 - name: CircuitBreaker
                   args:
                     name: usersService
@@ -102,6 +102,17 @@ spring:
                   args:
                     name: reportingService
                     fallbackUri: forward:/fallback/reporting
+            
+            - id: FINANCIAL-SERVICE
+              uri: lb://financial-service
+              predicates:
+                - Path=/api/financial/**
+              filters:
+                - RewritePath=/api/financial/(?<remaining>.*), /${remaining}
+                - name: CircuitBreaker
+                  args:
+                    name: reportingService
+                    fallbackUri: forward:/fallback/financial
 
 eureka:
   client:
@@ -159,6 +170,12 @@ resilience4j:
         slidingWindowType: COUNT_BASED
         slidingWindowSize: 10
       reportingService:
+        failureRateThreshold: 50
+        waitDurationInOpenState: 5s
+        permittedNumberOfCallsInHalfOpenState: 3
+        slidingWindowType: COUNT_BASED
+        slidingWindowSize: 10
+      financialService:
         failureRateThreshold: 50
         waitDurationInOpenState: 5s
         permittedNumberOfCallsInHalfOpenState: 3
