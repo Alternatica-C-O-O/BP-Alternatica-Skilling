@@ -12,8 +12,6 @@ spring:
           search-paths:
             - '{application}'
           default-label: master
-          username: JaremGallegos
-          password: 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
 
 eureka:
   client:
