@@ -32,19 +32,16 @@ public class RecursoDidacticoServiceImpl implements RecursoDidacticoService {
     @Override
     @CircuitBreaker(name = RECURSO_SERVICE_CB, fallbackMethod = "fallbackCreateRecurso")
     public Mono<RecursoDidacticoResponseDTO> createRecurso(RecursoDidacticoCreateRequestDTO requestDTO) {
-        RecursoDidactico recurso = RecursoDidactico.builder()
-                .id(UUID.randomUUID())
-                .nombreArchivo(requestDTO.nombreArchivo())
-                .tipoArchivo(requestDTO.tipoArchivo())
-                .url(requestDTO.url())
-                .fechaSubida(LocalDate.now())
-                .metadata(requestDTO.metadata())
-                .version(1)
-                .esActivo(true)
-                .usuariosId(requestDTO.usuariosId())
-                .build();
-
-        return recursoRepository.save(recurso)
+        UUID nuevoId = UUID.randomUUID();
+        return recursoRepository.customInsert(nuevoId,
+                        requestDTO.nombreArchivo(),
+                        requestDTO.tipoArchivo().name(),
+                        requestDTO.url(),
+                        LocalDate.now(),
+                        requestDTO.metadata(),
+                        1,
+                        true,
+                        requestDTO.usuariosId())
                 .map(this::toRecursoResponseDTO);
     }
 
