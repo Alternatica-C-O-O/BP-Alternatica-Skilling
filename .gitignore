@@ -23,3 +23,10 @@
 hs_err_pid*
 replay_pid*
 node_modules
+
+# Vscode
+.vscode/
+
+# Environment variables
+.env
+.env.local

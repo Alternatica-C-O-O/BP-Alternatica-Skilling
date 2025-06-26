@@ -7,6 +7,9 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Column;
 import org.springframework.data.relational.core.mapping.Table;
 
+import com.skilling.lms.shared.models.enums.PeriodoAcademicoEstado;
+import com.skilling.lms.shared.models.enums.PeriodoAcademicoTipo;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -20,7 +23,7 @@ import lombok.NoArgsConstructor;
 public class PeriodoAcademico {
 
     @Id
-	@Column("id")
+    @Column("id")
     private UUID id;
 
     private String nombre;
@@ -31,8 +34,8 @@ public class PeriodoAcademico {
     @Column("fecha_fin")
     private LocalDate fechaFin;
 
-    private String estado;
+    private PeriodoAcademicoEstado estado;
 
     @Column("tipo_periodo")
-    private String tipoPeriodo;
+    private PeriodoAcademicoTipo tipoPeriodo;
 }

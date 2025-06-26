@@ -19,16 +19,16 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Table("espacio_fisico")
 public class EspacioFisico {
-	    
-	@Id
-	@Column("id")
+
+    @Id
+    @Column("id")
     private UUID id;
 
     private String nombre;
     private Integer capacidad;
-    
-	@Column("tipo_espacio")
+
+    @Column("tipo_espacio")
     private EspacioTipo tipoEspacio;
-    
-	private String ubicacion;
+
+    private String ubicacion;
 }

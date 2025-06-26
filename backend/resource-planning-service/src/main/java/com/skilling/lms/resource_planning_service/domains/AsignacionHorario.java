@@ -22,11 +22,11 @@ import lombok.NoArgsConstructor;
 public class AsignacionHorario {
 
     @Id
-	@Column("id")
+    @Column("id")
     private UUID id;
 
     @Column("dia_semana")
-    private String diaSemana;
+    private Integer diaSemana;
 
     @Column("hora_inicio")
     private LocalTime horaInicio;
@@ -48,4 +48,7 @@ public class AsignacionHorario {
 
     @Column("curso_ofertado_id")
     private UUID cursoOfertadoId; // Foreign key
+
+    @Column("periodo_academico_id")
+    private UUID periodoAcademicoId; // Foreign key
 }

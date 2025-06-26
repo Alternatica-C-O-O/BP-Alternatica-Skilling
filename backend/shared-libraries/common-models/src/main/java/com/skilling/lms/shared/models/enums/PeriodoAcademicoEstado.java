@@ -10,7 +10,10 @@ public enum PeriodoAcademicoEstado {
     PASADO("PASADO"),
     PLANIFICADO("PLANIFICADO"),
     EN_CURSO("EN CURSO"),
-    FINALIZADO("FINALIZADO");
+    FINALIZADO("FINALIZADO"),
+    PENDIENTE("PENDIENTE"),
+    SUSPENDIDO("SUSPENDIDO"),
+    CANCELADO("CANCELADO");
 
     private final String value;
 

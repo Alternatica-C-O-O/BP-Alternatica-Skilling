@@ -21,7 +21,7 @@ import lombok.NoArgsConstructor;
 public class PlataformaVirtual {
 
     @Id
-	@Column("id")
+    @Column("id")
     private UUID id;
 
     @Column("nombre_plataforma")
@@ -29,7 +29,7 @@ public class PlataformaVirtual {
 
     private String url;
     private PlataformaVirtualTipo tipo;
-	
+
     @Column("credenciales_api")
     private String credencialesApi; // Podría ser JSON o un String cifrado
 }
