@@ -43,13 +43,13 @@ public class AsignacionHorarioController {
     }
 
     @GetMapping(value = "/{id}", produces = MediaType.APPLICATION_JSON)
-    public Mono<AsignacionHorarioResponseDTO> findById(@PathVariable UUID id) {
+    public Mono<AsignacionHorarioResponseDTO> findById(@PathVariable("id") UUID id) {
         return service.getById(id).switchIfEmpty(
                 Mono.error(new ResponseStatusException(HttpStatus.NOT_FOUND, "Asignación no encontrada")));
     }
 
     @PutMapping(value = "/{id}", consumes = MediaType.APPLICATION_JSON, produces = MediaType.APPLICATION_JSON)
-    public Mono<AsignacionHorarioResponseDTO> update(@PathVariable UUID id,
+    public Mono<AsignacionHorarioResponseDTO> update(@PathVariable("id") UUID id,
             @Valid @RequestBody AsignacionHorarioRequestDTO dto) {
         return service.update(id, dto).switchIfEmpty(Mono
                 .error(new ResponseStatusException(HttpStatus.NOT_FOUND, "Asignación no encontrada para actualizar")));
@@ -57,8 +57,7 @@ public class AsignacionHorarioController {
 
     @DeleteMapping("/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
-    public Mono<Void> delete(@PathVariable UUID id) {
-        return service.delete(id).switchIfEmpty(Mono
-                .error(new ResponseStatusException(HttpStatus.NOT_FOUND, "Asignación no encontrada para eliminar")));
+    public Mono<Void> delete(@PathVariable("id") UUID id) {
+        return service.delete(id);
     }
 }

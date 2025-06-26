@@ -12,11 +12,11 @@ POST /asignaciones-horario
 Content-Type: application/json
 
 {
-  "espacioFisicoId": "123e4567-e89b-12d3-a456-426614174001",
-  "plataformaVirtualId": "123e4567-e89b-12d3-a456-426614174002",
-  "usuariosId": "123e4567-e89b-12d3-a456-426614174003",
-  "cursoOfertadoId": "123e4567-e89b-12d3-a456-426614174004",
-  "tipoAsignacion": "PRESENCIAL",
+  "espacioFisicoId": "4a404bc2-3046-482f-b7b7-8bde62bd7da4",
+  "plataformaVirtualId": "3e280414-2de3-4ee2-ab6a-cbd66b040a9e",
+  "usuariosId": "0b309a9d-f605-49a9-84e8-090783049c0b",
+  "cursoOfertadoId": "49d8201f-b70b-4c71-974e-366be02374e8",
+  "tipoAsignacion": "CLASE",
   "horaInicio": "08:00:00",
   "horaFin": "10:00:00",
   "diaSemana": "LUNES"
@@ -33,14 +33,14 @@ PUT /asignaciones-horario/{id}
 Content-Type: application/json
 
 {
-  "espacioFisicoId": "123e4567-e89b-12d3-a456-426614174001",
-  "plataformaVirtualId": "123e4567-e89b-12d3-a456-426614174002",
-  "usuariosId": "123e4567-e89b-12d3-a456-426614174003",
-  "cursoOfertadoId": "123e4567-e89b-12d3-a456-426614174004",
-  "tipoAsignacion": "VIRTUAL",
-  "horaInicio": "14:00:00",
-  "horaFin": "16:00:00",
-  "diaSemana": "MIERCOLES"
+  "espacioFisicoId": "4a404bc2-3046-482f-b7b7-8bde62bd7da4",
+  "plataformaVirtualId": "3e280414-2de3-4ee2-ab6a-cbd66b040a9e",
+  "usuariosId": "0b309a9d-f605-49a9-84e8-090783049c0b",
+  "cursoOfertadoId": "49d8201f-b70b-4c71-974e-366be02374e8",
+  "tipoAsignacion": "CONSULTA",
+  "horaInicio": "10:00:00",
+  "horaFin": "12:00:00",
+  "diaSemana": "MARTES"
 }
 
 ### Eliminar Asignación de Horario
@@ -57,7 +57,7 @@ Content-Type: application/json
 {
   "nombre": "Aula Magna 101",
   "capacidad": 50,
-  "tipoEspacio": "AULA",
+  "tipoEspacio": "Laboratorio",
   "ubicacion": "Edificio A - Primer Piso"
 }
 
@@ -74,7 +74,7 @@ Content-Type: application/json
 {
   "nombre": "Laboratorio de Sistemas",
   "capacidad": 30,
-  "tipoEspacio": "LABORATORIO",
+  "tipoEspacio": "Consultorio",
   "ubicacion": "Edificio B - Segundo Piso"
 }
 
@@ -163,10 +163,11 @@ DELETE /periodos-academicos/{id}
 - HIBRIDO
 
 ### EspacioTipo (para EspacioFisico):
-- AULA
-- LABORATORIO
-- AUDITORIO
-- SALA_CONFERENCIAS
+- Consultorio
+- Laboratorio
+- Oficina
+- Auditorio
+- Gimnasio
 
 ### PlataformaVirtualTipo (para PlataformaVirtual):
 - VIDEOCONFERENCIA

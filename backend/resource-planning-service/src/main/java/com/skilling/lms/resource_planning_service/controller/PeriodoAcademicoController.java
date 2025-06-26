@@ -43,14 +43,14 @@ public class PeriodoAcademicoController {
   }
 
   @GetMapping("/{id}")
-  public Mono<PeriodoAcademicoResponseDTO> getPeriodoAcademicoById(@PathVariable UUID id) {
+  public Mono<PeriodoAcademicoResponseDTO> getPeriodoAcademicoById(@PathVariable("id") UUID id) {
     return periodoAcademicoService.getPeriodoAcademicoById(id)
         .switchIfEmpty(
             Mono.error(new ResponseStatusException(HttpStatus.NOT_FOUND, "Período académico no encontrado")));
   }
 
   @PutMapping("/{id}")
-  public Mono<PeriodoAcademicoResponseDTO> updatePeriodoAcademico(@PathVariable UUID id,
+  public Mono<PeriodoAcademicoResponseDTO> updatePeriodoAcademico(@PathVariable("id") UUID id,
       @Valid @RequestBody PeriodoAcademicoRequestDTO requestDTO) {
     return periodoAcademicoService.updatePeriodoAcademico(id, requestDTO)
         .switchIfEmpty(Mono.error(
@@ -59,7 +59,7 @@ public class PeriodoAcademicoController {
 
   @DeleteMapping("/{id}")
   @ResponseStatus(HttpStatus.NO_CONTENT)
-  public Mono<Void> deletePeriodoAcademico(@PathVariable UUID id) {
+  public Mono<Void> deletePeriodoAcademico(@PathVariable("id") UUID id) {
     return periodoAcademicoService.deletePeriodoAcademico(id)
         .switchIfEmpty(Mono
             .error(new ResponseStatusException(HttpStatus.NOT_FOUND, "Período académico no encontrado para eliminar")));

@@ -42,13 +42,13 @@ public class EspacioFisicoController {
   }
 
   @GetMapping("/{id}")
-  public Mono<EspacioFisicoResponseDTO> getEspacioFisicoById(@PathVariable UUID id) {
+  public Mono<EspacioFisicoResponseDTO> getEspacioFisicoById(@PathVariable("id") UUID id) {
     return espacioFisicoService.getEspacioFisicoById(id)
         .switchIfEmpty(Mono.error(new ResponseStatusException(HttpStatus.NOT_FOUND, "Espacio físico no encontrado")));
   }
 
   @PutMapping("/{id}")
-  public Mono<EspacioFisicoResponseDTO> updateEspacioFisico(@PathVariable UUID id,
+  public Mono<EspacioFisicoResponseDTO> updateEspacioFisico(@PathVariable("id") UUID id,
       @Valid @RequestBody EspacioFisicoRequestDTO requestDTO) {
     return espacioFisicoService.updateEspacioFisico(id, requestDTO)
         .switchIfEmpty(Mono
@@ -57,7 +57,7 @@ public class EspacioFisicoController {
 
   @DeleteMapping("/{id}")
   @ResponseStatus(HttpStatus.NO_CONTENT)
-  public Mono<Void> deleteEspacioFisico(@PathVariable UUID id) {
+  public Mono<Void> deleteEspacioFisico(@PathVariable("id") UUID id) {
     return espacioFisicoService.deleteEspacioFisico(id)
         .switchIfEmpty(Mono
             .error(new ResponseStatusException(HttpStatus.NOT_FOUND, "Espacio físico no encontrado para eliminar")));

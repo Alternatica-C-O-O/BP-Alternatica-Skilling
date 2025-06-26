@@ -43,14 +43,14 @@ public class PlataformaVirtualController {
   }
 
   @GetMapping("/{id}")
-  public Mono<PlataformaVirtualResponseDTO> getPlataformaVirtualById(@PathVariable UUID id) {
+  public Mono<PlataformaVirtualResponseDTO> getPlataformaVirtualById(@PathVariable("id") UUID id) {
     return plataformaVirtualService.getPlataformaVirtualById(id)
         .switchIfEmpty(
             Mono.error(new ResponseStatusException(HttpStatus.NOT_FOUND, "Plataforma virtual no encontrada")));
   }
 
   @PutMapping("/{id}")
-  public Mono<PlataformaVirtualResponseDTO> updatePlataformaVirtual(@PathVariable UUID id,
+  public Mono<PlataformaVirtualResponseDTO> updatePlataformaVirtual(@PathVariable("id") UUID id,
       @Valid @RequestBody PlataformaVirtualRequestDTO requestDTO) {
     return plataformaVirtualService.updatePlataformaVirtual(id, requestDTO)
         .switchIfEmpty(Mono.error(
@@ -59,7 +59,7 @@ public class PlataformaVirtualController {
 
   @DeleteMapping("/{id}")
   @ResponseStatus(HttpStatus.NO_CONTENT)
-  public Mono<Void> deletePlataformaVirtual(@PathVariable UUID id) {
+  public Mono<Void> deletePlataformaVirtual(@PathVariable("id") UUID id) {
     return plataformaVirtualService.deletePlataformaVirtual(id)
         .switchIfEmpty(Mono.error(
             new ResponseStatusException(HttpStatus.NOT_FOUND, "Plataforma virtual no encontrada para eliminar")));
