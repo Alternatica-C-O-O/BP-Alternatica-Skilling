@@ -4,9 +4,16 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonValue;
 
 public enum PlataformaVirtualTipo {
+    MOOC("MOOC"),
     LMS("LMS"),
-    VIDEOCONFERENCIA("VIDEOCONFERENCIA"),
-    GESTION_CONTENIDO("GESTION CONTENIDO");
+    AulaVirtual("AulaVirtual"),
+    RedSocialEducativa("RedSocialEducativa"),
+    PlataformaVideoconferencia("PlataformaVideoconferencia"),
+    SistemaGestionAcademica("SistemaGestionAcademica"),
+    PlataformaEvaluacion("PlataformaEvaluacion"),
+    ForoEnLinea("ForoEnLinea"),
+    RepositorioContenidos("RepositorioContenidos"),
+    ELearning("ELearning");
 
     private final String value;
 
