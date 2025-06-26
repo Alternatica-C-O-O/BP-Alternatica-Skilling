@@ -7,10 +7,10 @@ import com.skilling.lms.shared.models.enums.PeriodoAcademicoEstado;
 import com.skilling.lms.shared.models.enums.PeriodoAcademicoTipo;
 
 public record PeriodoAcademicoResponseDTO(
-                UUID id,
-                String nombre,
-                LocalDate fechaInicio,
-                LocalDate fechaFin,
-                PeriodoAcademicoEstado estado,
-                PeriodoAcademicoTipo tipoPeriodo) {
+    UUID id,
+    String nombre,
+    LocalDate fechaInicio,
+    LocalDate fechaFin,
+    PeriodoAcademicoEstado estado,
+    PeriodoAcademicoTipo tipoPeriodo) {
 }
