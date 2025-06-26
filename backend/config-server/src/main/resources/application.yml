@@ -12,8 +12,8 @@ spring:
           search-paths:
             - '{application}'
           default-label: master
-          username: JaremGallegos
-          password: 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
+          username: ${CONFIG_SERVER_GIT_USERNAME}
+          password: ${CONFIG_SERVER_GIT_PASSWORD}
 
 eureka:
   client:

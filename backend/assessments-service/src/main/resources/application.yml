@@ -19,6 +19,3 @@ resilience4j:
         permittedNumberOfCallsInHalfOpenState: 3
         slidingWindowType: COUNT_BASED
         slidingWindowSize: 10
-
-SUPABASE_PROJECT_REF_IMPORTED: jtnsigjcpxhkxhpbotkv
-SUPABASE_DB_PASSWORD: alternatica-skilling

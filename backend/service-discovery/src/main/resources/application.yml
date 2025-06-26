@@ -13,6 +13,3 @@ eureka:
     fetch-registry: false
   instance:
     hostname: localhost
-
-SUPABASE_PROJECT_REF_IMPORTED: jtnsigjcpxhkxhpbotkv
-SUPABASE_DB_PASSWORD: alternatica-skilling
