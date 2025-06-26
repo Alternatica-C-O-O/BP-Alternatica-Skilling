@@ -154,39 +154,6 @@ Content-Type: application/json
 DELETE /periodos-academicos/{id}
 
 ## ========================================
-## EJEMPLOS DE ENUMERACIONES
-## ========================================
-
-### AsignacionTipo (para AsignacionHorario):
-- PRESENCIAL
-- VIRTUAL
-- HIBRIDO
-
-### EspacioTipo (para EspacioFisico):
-- Consultorio
-- Laboratorio
-- Oficina
-- Auditorio
-- Gimnasio
-
-### PlataformaVirtualTipo (para PlataformaVirtual):
-- VIDEOCONFERENCIA
-- PLATAFORMA_LMS
-- HERRAMIENTA_COLABORATIVA
-
-### PeriodoAcademicoEstado (para PeriodoAcademico):
-- ACTIVO
-- INACTIVO
-- PLANIFICADO
-- FINALIZADO
-
-### PeriodoAcademicoTipo (para PeriodoAcademico):
-- SEMESTRAL
-- TRIMESTRAL
-- ANUAL
-- CUATRIMESTRAL
-
-## ========================================
 ## NOTAS IMPORTANTES
 ## ========================================
 
@@ -195,4 +162,4 @@ DELETE /periodos-academicos/{id}
 3. Los IDs deben ser UUIDs válidos formato: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 4. Las fechas deben estar en formato ISO: YYYY-MM-DD
 5. Las horas deben estar en formato HH:mm:ss
-6. El servicio corre típicamente en puerto 8082
+6. El servicio corre típicamente en puerto 8083
