@@ -60,8 +60,6 @@ public class PlataformaVirtualController {
   @DeleteMapping("/{id}")
   @ResponseStatus(HttpStatus.NO_CONTENT)
   public Mono<Void> deletePlataformaVirtual(@PathVariable("id") UUID id) {
-    return plataformaVirtualService.deletePlataformaVirtual(id)
-        .switchIfEmpty(Mono.error(
-            new ResponseStatusException(HttpStatus.NOT_FOUND, "Plataforma virtual no encontrada para eliminar")));
+    return plataformaVirtualService.deletePlataformaVirtual(id);
   }
 }

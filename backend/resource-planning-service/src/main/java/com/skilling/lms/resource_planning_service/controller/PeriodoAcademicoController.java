@@ -60,8 +60,6 @@ public class PeriodoAcademicoController {
   @DeleteMapping("/{id}")
   @ResponseStatus(HttpStatus.NO_CONTENT)
   public Mono<Void> deletePeriodoAcademico(@PathVariable("id") UUID id) {
-    return periodoAcademicoService.deletePeriodoAcademico(id)
-        .switchIfEmpty(Mono
-            .error(new ResponseStatusException(HttpStatus.NOT_FOUND, "Período académico no encontrado para eliminar")));
+    return periodoAcademicoService.deletePeriodoAcademico(id);
   }
 }

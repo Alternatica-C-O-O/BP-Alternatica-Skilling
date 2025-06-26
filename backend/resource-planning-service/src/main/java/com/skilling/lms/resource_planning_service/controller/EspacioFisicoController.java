@@ -58,8 +58,6 @@ public class EspacioFisicoController {
   @DeleteMapping("/{id}")
   @ResponseStatus(HttpStatus.NO_CONTENT)
   public Mono<Void> deleteEspacioFisico(@PathVariable("id") UUID id) {
-    return espacioFisicoService.deleteEspacioFisico(id)
-        .switchIfEmpty(Mono
-            .error(new ResponseStatusException(HttpStatus.NOT_FOUND, "Espacio físico no encontrado para eliminar")));
+    return espacioFisicoService.deleteEspacioFisico(id);
   }
 }
