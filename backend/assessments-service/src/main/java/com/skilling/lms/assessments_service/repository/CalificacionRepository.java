@@ -8,7 +8,7 @@ import com.skilling.lms.assessments_service.domains.Calificacion;
 
 import reactor.core.publisher.Flux;
 
-public interface CalificacionRepository extends ReactiveCrudRepository<CalificacionRepository, UUID> {
+public interface CalificacionRepository extends ReactiveCrudRepository<Calificacion, UUID> {
 
     Flux<Calificacion> findByInscripcionId(UUID inscripcionId);
     Flux<Calificacion> findByEvaluacionId(UUID evaluacionId);
