@@ -46,32 +46,32 @@ public class RecursoDidacticoController {
     }
 
     @GetMapping(value = "/{id}", produces = MediaType.APPLICATION_JSON)
-    public Mono<RecursoDidacticoResponseDTO> getRecursoById(@PathVariable UUID id) {
+    public Mono<RecursoDidacticoResponseDTO> getRecursoById(@PathVariable("id") UUID id) {
         return recursoService.getRecursoById(id)
                 .switchIfEmpty(Mono.error(new ResponseStatusException(HttpStatus.NOT_FOUND, "Recurso no encontrado con ID: " + id)));
     }
 
     @GetMapping(value = "/usuario/{usuarioId}", produces = MediaType.APPLICATION_JSON)
-    public Flux<RecursoDidacticoResponseDTO> getRecursosByUsuario(@PathVariable UUID usuarioId) {
+    public Flux<RecursoDidacticoResponseDTO> getRecursosByUsuario(@PathVariable("usuarioId") UUID usuarioId) {
         return recursoService.getRecursosByUsuario(usuarioId)
                 .switchIfEmpty(Mono.error(new ResponseStatusException(HttpStatus.NOT_FOUND, "No se encontraron recursos para el usuario con ID: " + usuarioId)));
     }
 
     @GetMapping(value = "/tipo/{tipo}", produces = MediaType.APPLICATION_JSON)
-    public Flux<RecursoDidacticoResponseDTO> getRecursosByTipo(@PathVariable String tipo) {
+    public Flux<RecursoDidacticoResponseDTO> getRecursosByTipo(@PathVariable("tipo") String tipo) {
         return recursoService.getRecursosByTipo(tipo)
                 .switchIfEmpty(Mono.error(new ResponseStatusException(HttpStatus.NOT_FOUND, "No se encontraron recursos del tipo: " + tipo)));
     }
 
     @PutMapping(value = "/{id}", produces = MediaType.APPLICATION_JSON, consumes = MediaType.APPLICATION_JSON)
-    public Mono<RecursoDidacticoResponseDTO> updateRecurso(@PathVariable UUID id, @Valid @RequestBody RecursoDidacticoRequestDTO requestDTO) {
+    public Mono<RecursoDidacticoResponseDTO> updateRecurso(@PathVariable("id") UUID id, @Valid @RequestBody RecursoDidacticoRequestDTO requestDTO) {
         return recursoService.updateRecurso(id, requestDTO)
                 .switchIfEmpty(Mono.error(new ResponseStatusException(HttpStatus.NOT_FOUND, "Recurso no encontrado para actualizar con ID: " + id)));
     }
 
     @DeleteMapping(value = "/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
-    public Mono<Void> deleteRecurso(@PathVariable UUID id) {
+    public Mono<Void> deleteRecurso(@PathVariable("id") UUID id) {
         return recursoService.deleteRecurso(id)
                 .onErrorResume(e -> Mono.error(new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR, "Error al eliminar el recurso")));
     }

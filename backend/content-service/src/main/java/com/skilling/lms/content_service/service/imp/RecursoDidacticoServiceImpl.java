@@ -112,11 +112,16 @@ public class RecursoDidacticoServiceImpl implements RecursoDidacticoService {
     public Mono<RecursoDidacticoResponseDTO> updateRecurso(UUID id, RecursoDidacticoRequestDTO requestDTO) {
         return recursoRepository.findById(id)
                 .switchIfEmpty(Mono.error(new RuntimeException("Recurso no encontrado para actualizar con ID: " + id)))
-                .flatMap(existingRecurso -> {
-                    BeanUtils.copyProperties(requestDTO, existingRecurso, "id", "fechaSubida");
-                    existingRecurso.setVersion(existingRecurso.getVersion() + 1);
-                    return recursoRepository.save(existingRecurso);
-                })
+                .flatMap(existing -> recursoRepository.customUpdate(
+                        id,
+                        requestDTO.nombreArchivo(),
+                        requestDTO.tipoArchivo().name(),
+                        requestDTO.url(),
+                        requestDTO.metadata().toString(), // 💡 Aquí está el toString() para el CAST
+                        existing.getVersion() + 1,
+                        requestDTO.esActivo(),
+                        requestDTO.usuariosId()
+                ))
                 .map(this::toRecursoResponseDTO);
     }
 
@@ -131,11 +136,7 @@ public class RecursoDidacticoServiceImpl implements RecursoDidacticoService {
     public Mono<Void> deleteRecurso(UUID id) {
         return recursoRepository.findById(id)
                 .switchIfEmpty(Mono.error(new RuntimeException("Recurso no encontrado para eliminar con ID: " + id)))
-                .flatMap(recurso -> {
-                    recurso.setEsActivo(false);
-                    return recursoRepository.save(recurso);
-                })
-                .then();
+                .flatMap(recurso -> recursoRepository.softDeleteById(id));
     }
 
     @SuppressWarnings("unused")
