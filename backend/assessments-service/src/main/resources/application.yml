@@ -1,6 +1,6 @@
 spring:
   application:
-    name: assessments-service 
+    name: assessments-service
   config:
     import: "configserver:http://localhost:8888"
 
@@ -19,3 +19,6 @@ resilience4j:
         permittedNumberOfCallsInHalfOpenState: 3
         slidingWindowType: COUNT_BASED
         slidingWindowSize: 10
+
+SUPABASE_PROJECT_REF_IMPORTED: ${SUPABASE_PROJECT_REF_IMPORTED}
+SUPABASE_DB_PASSWORD: ${SUPABASE_DB_PASSWORD}
