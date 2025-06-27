@@ -27,7 +27,7 @@ import reactor.core.publisher.Mono;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/api/v1/recursos-didacticos")
+@RequestMapping("/v1/recursos-didacticos")
 public class RecursoDidacticoController {
 
     private final RecursoDidacticoService recursoService;
