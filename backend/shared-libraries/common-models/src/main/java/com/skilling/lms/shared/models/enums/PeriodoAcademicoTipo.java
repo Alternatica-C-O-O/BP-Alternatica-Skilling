@@ -4,12 +4,15 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonValue;
 
 public enum PeriodoAcademicoTipo {
-    SEMESTRE("SEMESTRE"),
-    CUATRIMESTRE("CUATRIMESTRE"),
-    TRIMESTRE("TRIMESTRE"),
     ANUAL("ANUAL"),
+    MENSUAL("MENSUAL"),
+    SEMESTRE("SEMESTRAL"),
+    CUATRIMESTRAL("CUATRIMESTRAL"),
+    TRIMESTRAL("TRIMESTRAL"),
+    BIMESTRAL("BIMESTRAL"),
+    INTENSIVO("INTENSIVO"),
     VERANO("VERANO"),
-    INTENSIVO("INTENSIVO");
+    INVIERNO("INVIERNO");
 
     private final String value;
 
@@ -32,4 +35,3 @@ public enum PeriodoAcademicoTipo {
         throw new IllegalArgumentException("Unexpected value '" + text + "'");
     }
 }
-

@@ -4,9 +4,16 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonValue;
 
 public enum EspacioTipo {
-    AULA("AULA"),
-    LAB("LAB"),
-    SALA("SALA");
+    Recepcion("Recepción"),
+    Laboratorio("Laboratorio"),
+    SalaDeComputo("Sala de Cómputo"),
+    Gimnasio("Gimnasio"),
+    SalaDeEstudio("Sala de estudio"),
+    Vestibulo("Vestíbulo"),
+    Cafeteria("Cafetería"),
+    Consultorio("Consultorio"),
+    Oficina("Oficina"),
+    Auditorio("Auditorio");
 
     private final String value;
 
