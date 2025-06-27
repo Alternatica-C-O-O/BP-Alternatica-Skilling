@@ -12,6 +12,7 @@ spring:
           search-paths:
             - '{application}'
           default-label: master
+          
 
 eureka:
   client:

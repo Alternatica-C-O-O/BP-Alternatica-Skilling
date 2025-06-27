@@ -5,8 +5,8 @@ import com.fasterxml.jackson.annotation.JsonValue;
 
 public enum EventoTipo {
     LOGIN("LOGIN"),
-    COURSE_ACCESS("COURSE_ACCESS"),
-    GRADE_UPDATE("GRADE_UPDATE");
+    COURSE_ACCESS("COURSE ACCESS"),
+    GRADE_UPDATE("GRADE UPDATE");
 
     private final String value;
 

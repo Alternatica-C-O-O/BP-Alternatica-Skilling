@@ -1,8 +1,9 @@
 package com.skilling.lms.shared.models;
 
-import java.io.Serializable;
+import java.util.UUID;
 
-import org.springframework.data.annotation.Id;
+import org.springframework.data.relational.core.mapping.Column;
+import org.springframework.data.relational.core.mapping.Table;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -13,11 +14,12 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class CursoPrerequisito implements Serializable {
+@Table("curso_prerequisito")
+public class CursoPrerequisito {
 
-    @Id
-    private CursoPrerequisitoId id;
-
-    // @Transient private CursoOfertado curso; // El curso principal
-    // @Transient private CursoOfertado prerequisito; // El curso que es prerequisito
+    @Column("curso_id")
+    private UUID cursoId;
+    
+    @Column("prerequisito_id")
+    private UUID prerequisitoId;
 }

@@ -9,6 +9,7 @@ import org.springframework.data.relational.core.mapping.Table;
 
 import com.skilling.lms.shared.models.enums.ArchivoTipo;
 
+import io.r2dbc.postgresql.codec.Json;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -36,7 +37,7 @@ public class RecursoDidactico {
     @Column("fecha_subida")
     private LocalDate fechaSubida;
 
-    private String metadata; // JSON se mapea a String
+    private Json metadata; // JSON se mapea a String
     private Integer version;
 
     @Column("es_activo")

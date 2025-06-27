@@ -57,7 +57,6 @@ public class PermisoController {
     @DeleteMapping(value = "/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public Mono<Void> deletePermiso(@PathVariable UUID id) {
-        return permisoService.deletePermiso(id)
-                .switchIfEmpty(Mono.error(new ResponseStatusException(HttpStatus.NO_CONTENT, "Permiso no encontrado para eliminar")));
+        return permisoService.deletePermiso(id);
     }
 }

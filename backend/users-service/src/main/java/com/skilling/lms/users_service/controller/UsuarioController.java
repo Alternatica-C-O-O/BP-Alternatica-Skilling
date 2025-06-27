@@ -62,11 +62,10 @@ public class UsuarioController {
                 .switchIfEmpty(Mono.error(new ResponseStatusException(HttpStatus.NOT_FOUND, "Usuario no encontrado para actualizar")));
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping(value = "/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public Mono<Void> deleteUsuario(@PathVariable UUID id) {
-        return usuarioService.deleteUsuario(id)
-                .switchIfEmpty(Mono.error(new ResponseStatusException(HttpStatus.NOT_FOUND, "Usuario no encontrado para eliminar")));
+        return usuarioService.deleteUsuario(id);
     }
 
     // --- Endpoints para manejar la relación N:M con Roles ---

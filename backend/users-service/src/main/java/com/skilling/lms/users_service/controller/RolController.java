@@ -55,11 +55,10 @@ public class RolController {
             .switchIfEmpty(Mono.error(new ResponseStatusException(HttpStatus.NOT_FOUND, "Rol no encontrado para actualizar")));
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping(value = "/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public Mono<Void> deleteRol(@PathVariable UUID id) {
-        return rolService.deleteRol(id)
-            .switchIfEmpty(Mono.error(new ResponseStatusException(HttpStatus.NOT_FOUND, "Rol no encontrado para eliminar")));
+        return rolService.deleteRol(id);
     }
 
     // --- Endpoints para manejar la relación N:M con Permisos ---

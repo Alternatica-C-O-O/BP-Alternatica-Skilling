@@ -8,6 +8,7 @@ import org.springframework.data.relational.core.mapping.Column;
 import org.springframework.data.relational.core.mapping.Table;
 
 import com.skilling.lms.shared.models.enums.AsignacionTipo;
+import com.skilling.lms.shared.models.enums.DiaSemana;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -26,7 +27,7 @@ public class AsignacionHorario {
     private UUID id;
 
     @Column("dia_semana")
-    private String diaSemana;
+    private DiaSemana diaSemana;
 
     @Column("hora_inicio")
     private LocalTime horaInicio;

@@ -3,6 +3,7 @@ package com.skilling.lms.shared.models.enums;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonValue;
 
+// Se tienen defaults extras
 public enum PeriodoAcademicoEstado {
     ACTIVO("ACTIVO"),
     INACTIVO("INACTIVO"),

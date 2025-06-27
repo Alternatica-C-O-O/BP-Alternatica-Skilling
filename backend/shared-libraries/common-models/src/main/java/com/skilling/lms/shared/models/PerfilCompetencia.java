@@ -1,6 +1,8 @@
 package com.skilling.lms.shared.models;
 
-import org.springframework.data.annotation.Id;
+import java.util.UUID;
+
+import org.springframework.data.relational.core.mapping.Column;
 import org.springframework.data.relational.core.mapping.Table;
 
 import lombok.AllArgsConstructor;
@@ -15,9 +17,9 @@ import lombok.NoArgsConstructor;
 @Table("perfil_competencia")
 public class PerfilCompetencia {
 
-    @Id
-    private PerfilCompetenciaId id;
-
-    // @Transient private PerfilCurricular perfilCurricular;
-    // @Transient private Competencia competencia;
+    @Column("perfil_curricular_id")
+    private UUID perfilCurricularId;
+    
+    @Column("competencia_id")
+    private UUID competenciaId;
 }

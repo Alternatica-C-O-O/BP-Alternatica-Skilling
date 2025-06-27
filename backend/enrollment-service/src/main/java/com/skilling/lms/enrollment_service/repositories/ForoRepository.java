@@ -11,6 +11,6 @@ import reactor.core.publisher.Mono;
 
 public interface ForoRepository extends ReactiveCrudRepository<Foro, UUID> {
     
+    Mono<Foro> findByNombreForoAndCursoOfertadoId(String nombreForo, UUID cursoOfertadoId);
     Flux<Foro> findByCursoOfertadoId(UUID cursoOfertadoId);
-    Mono<Foro> findByNombreForo(String nombreForo);
 }

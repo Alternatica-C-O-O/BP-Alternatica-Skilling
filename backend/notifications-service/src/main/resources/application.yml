@@ -13,3 +13,6 @@ spring:
     properties:
       spring.json.trusted.packages: "*"
       spring.json.add.type.headers: false
+
+SUPABASE_PROJECT_REF_IMPORTED: jtnsigjcpxhkxhpbotkv
+SUPABASE_DB_PASSWORD: alternatica-skilling

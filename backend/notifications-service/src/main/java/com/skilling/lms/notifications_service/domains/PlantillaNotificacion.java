@@ -6,8 +6,10 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Column;
 import org.springframework.data.relational.core.mapping.Table;
 
+
 import com.skilling.lms.shared.models.enums.CanalTipo;
 
+import io.r2dbc.postgresql.codec.Json;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -34,7 +36,7 @@ public class PlantillaNotificacion {
     private String cuerpoPlantilla;
     
     @Column("variables_disponibles")
-    private String variablesDisponibles;
+    private Json variablesDisponibles;
 
     @Column("canal_preferido")
     private CanalTipo canalPreferido;

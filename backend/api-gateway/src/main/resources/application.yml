@@ -31,7 +31,7 @@ spring:
               predicates:
                 - Path=/api/curriculum/**
               filters:
-                - RewritePath=/api/curriculum/(?<remaining>.*), /${remaining}
+                - RewritePath=/api/curriculum(?<remaining>.*), /api${remaining}
                 - name: CircuitBreaker
                   args:
                     name: curriculumService
@@ -42,7 +42,7 @@ spring:
               predicates:
                 - Path=/api/resource-planning/**
               filters:
-                - RewritePath=/api/resource-planning/(?<remaining>.*), /${remaining}
+                - RewritePath=/api/resource-planning(?<remaining>.*), /api${remaining}
                 - name: CircuitBreaker
                   args:
                     name: resourcePlanningService
@@ -53,7 +53,7 @@ spring:
               predicates:
                 - Path=/api/enrollment/**
               filters:
-                - RewritePath=/api/enrollment/(?<remaining>.*), /${remaining}
+                - RewritePath=/api/enrollment(?<remaining>.*), /api${remaining}
                 - name: CircuitBreaker
                   args:
                     name: enrollmentService
@@ -64,7 +64,7 @@ spring:
               predicates:
                 - Path=/api/content/**
               filters:
-                - RewritePath=/api/content/(?<remaining>.*), /${remaining}
+                - RewritePath=/api/content(?<remaining>.*), /api${remaining}
                 - name: CircuitBreaker
                   args:
                     name: contentService
@@ -75,7 +75,7 @@ spring:
               predicates:
                 - Path=/api/assessments/**
               filters:
-                - RewritePath=/api/assessments/(?<remaining>.*), /${remaining}
+                - RewritePath=/api/assessments(?<remaining>.*), /api${remaining}
                 - name: CircuitBreaker
                   args:
                     name: assessmentsService
@@ -86,7 +86,7 @@ spring:
               predicates:
                 - Path=/api/notifications/**
               filters:
-                - RewritePath=/api/notifications/(?<remaining>.*), /${remaining}
+                - RewritePath=/api/notifications(?<remaining>.*), /api${remaining}
                 - name: CircuitBreaker
                   args:
                     name: notificationsService
@@ -97,7 +97,7 @@ spring:
               predicates:
                 - Path=/api/reporting/**
               filters:
-                - RewritePath=/api/reporting/(?<remaining>.*), /${remaining}
+                - RewritePath=/api/reporting(?<remaining>.*), /api${remaining}
                 - name: CircuitBreaker
                   args:
                     name: reportingService
@@ -108,10 +108,10 @@ spring:
               predicates:
                 - Path=/api/financial/**
               filters:
-                - RewritePath=/api/financial/(?<remaining>.*), /${remaining}
+                - RewritePath=/api/financial(?<remaining>.*), /api${remaining}
                 - name: CircuitBreaker
                   args:
-                    name: reportingService
+                    name: financialService
                     fallbackUri: forward:/fallback/financial
 
 eureka:
