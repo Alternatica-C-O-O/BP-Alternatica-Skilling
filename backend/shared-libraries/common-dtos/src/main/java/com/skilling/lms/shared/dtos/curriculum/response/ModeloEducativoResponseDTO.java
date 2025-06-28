@@ -3,7 +3,6 @@ package com.skilling.lms.shared.dtos.curriculum.response;
 import java.time.LocalDate;
 import java.util.UUID;
 
-import com.skilling.lms.shared.dtos.users.response.UsuarioResponseDTO;
 import com.skilling.lms.shared.models.enums.GeneralEstado;
 
 public record ModeloEducativoResponseDTO(
@@ -13,5 +12,5 @@ public record ModeloEducativoResponseDTO(
     String version,
     LocalDate fechaCreacion,
     GeneralEstado estado,
-    UsuarioResponseDTO usuario
+    UUID usuario
 ) {}

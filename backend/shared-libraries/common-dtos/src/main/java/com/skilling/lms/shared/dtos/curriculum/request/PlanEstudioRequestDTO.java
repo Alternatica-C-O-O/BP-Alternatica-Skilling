@@ -21,8 +21,7 @@ public record PlanEstudioRequestDTO(
     @NotNull(message = "La fecha de aprobación no puede ser nula")
     LocalDate fechaAprobacion,
 
-    @NotBlank(message = "El estado no puede estar vacío")
-    @Size(max = 150, message = "El estado no puede exceder 150 caracteres")
+    @NotNull(message = "El estado no puede ser nulo")
     GeneralEstado estado,
 
     @NotNull(message = "El ID del modelo educativo no puede ser nulo")

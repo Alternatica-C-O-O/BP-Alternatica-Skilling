@@ -1,0 +1,4119 @@
+{
+  "yaakVersion": "2025.2.3",
+  "yaakSchema": 4,
+  "timestamp": "2025-06-28T20:58:26.817106283",
+  "resources": {
+    "workspaces": [
+      {
+        "model": "workspace",
+        "id": "wk_WuCd9TzU4p",
+        "createdAt": "2025-05-26T19:18:41.794985612",
+        "updatedAt": "2025-05-26T19:18:41.794986514",
+        "name": "Yaak",
+        "description": "",
+        "encryptionKeyChallenge": null,
+        "settingValidateCertificates": true,
+        "settingFollowRedirects": true,
+        "settingRequestTimeout": 0
+      }
+    ],
+    "environments": [
+      {
+        "model": "environment",
+        "id": "ev_mvKeuaibhi",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "createdAt": "2025-05-26T19:18:42.095358668",
+        "updatedAt": "2025-05-26T19:18:42.095359038",
+        "name": "Global Variables",
+        "public": false,
+        "base": true,
+        "variables": []
+      }
+    ],
+    "folders": [
+      {
+        "model": "folder",
+        "id": "fl_87QnVSeMHV",
+        "createdAt": "2025-06-28T02:56:13.331217895",
+        "updatedAt": "2025-06-28T02:56:13.331218787",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_5x3D5xGdZp",
+        "name": "plan-estudio",
+        "description": "",
+        "sortPriority": -1751079300000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_ZjWzyrFDhU",
+        "createdAt": "2025-06-28T02:56:05.705756453",
+        "updatedAt": "2025-06-28T02:56:05.705756904",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_5x3D5xGdZp",
+        "name": "perfil-curricular",
+        "description": "",
+        "sortPriority": -1751079300000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_yJqeA2nX89",
+        "createdAt": "2025-06-28T02:55:52.552075770",
+        "updatedAt": "2025-06-28T02:55:52.552076261",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_5x3D5xGdZp",
+        "name": "modulo",
+        "description": "",
+        "sortPriority": -1751079300000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_cvD5UK9mqw",
+        "createdAt": "2025-06-28T02:55:42.510622700",
+        "updatedAt": "2025-06-28T02:55:42.510623321",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_5x3D5xGdZp",
+        "name": "modelo-educativo",
+        "description": "",
+        "sortPriority": -1751079300000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_RqLg4Vo2CN",
+        "createdAt": "2025-06-28T02:54:00.490211739",
+        "updatedAt": "2025-06-28T02:54:00.490212841",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_5x3D5xGdZp",
+        "name": "curso-ofertado",
+        "description": "",
+        "sortPriority": -1751079200000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_8nHuH8iuRk",
+        "createdAt": "2025-06-28T02:53:47.153145866",
+        "updatedAt": "2025-06-28T02:53:47.153146407",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_5x3D5xGdZp",
+        "name": "competencia",
+        "description": "",
+        "sortPriority": -1751079200000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_5x3D5xGdZp",
+        "createdAt": "2025-06-28T02:47:45.563292329",
+        "updatedAt": "2025-06-28T02:47:45.563292790",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_EU7NbJzvkF",
+        "name": "curriculum-service",
+        "description": "",
+        "sortPriority": -1751078900000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_M76E6ewLV3",
+        "createdAt": "2025-06-27T20:20:44.365050222",
+        "updatedAt": "2025-06-27T20:20:44.365050703",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_yM5NCjW6eH",
+        "name": "seguimientos-progreso",
+        "description": "",
+        "sortPriority": -1751055600000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_Y6H2YeXfdU",
+        "createdAt": "2025-06-27T20:20:29.707177944",
+        "updatedAt": "2025-06-27T20:20:29.707178505",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_yM5NCjW6eH",
+        "name": "publicaciones-foro",
+        "description": "",
+        "sortPriority": -1751055600000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_RgNQCg7zQx",
+        "createdAt": "2025-06-27T20:20:13.249011754",
+        "updatedAt": "2025-06-27T20:20:13.249012285",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_yM5NCjW6eH",
+        "name": "mensajes",
+        "description": "",
+        "sortPriority": -1751055600000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_BuVLc45W3c",
+        "createdAt": "2025-06-27T20:19:57.959201565",
+        "updatedAt": "2025-06-27T20:19:57.959201936",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_yM5NCjW6eH",
+        "name": "inscripciones",
+        "description": "",
+        "sortPriority": -1751055600000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_PTwdS4LkGf",
+        "createdAt": "2025-06-27T20:13:39.659983680",
+        "updatedAt": "2025-06-27T20:13:39.659984151",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_yM5NCjW6eH",
+        "name": "foros",
+        "description": "",
+        "sortPriority": -1751055200000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_4UboRKfPCH",
+        "createdAt": "2025-06-27T20:12:46.227721442",
+        "updatedAt": "2025-06-27T20:12:46.227721892",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_yM5NCjW6eH",
+        "name": "asistencias",
+        "description": "",
+        "sortPriority": -1751055200000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_9PKTfm5uay",
+        "createdAt": "2025-06-27T17:16:13.014379885",
+        "updatedAt": "2025-06-27T17:16:13.014380837",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_baqyyfr7Jd",
+        "name": "evaluaciones",
+        "description": "",
+        "sortPriority": -1751044600000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_Fe5p7pUZ9c",
+        "createdAt": "2025-06-27T17:12:39.481742185",
+        "updatedAt": "2025-06-27T17:12:39.481742856",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_baqyyfr7Jd",
+        "name": "certificados",
+        "description": "",
+        "sortPriority": -1751044300000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_WLd4rV9MuM",
+        "createdAt": "2025-06-27T17:12:24.583873260",
+        "updatedAt": "2025-06-27T17:12:24.583874222",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_baqyyfr7Jd",
+        "name": "calificaciones",
+        "description": "",
+        "sortPriority": -1751044300000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_Rid7aEDZPM",
+        "createdAt": "2025-06-27T17:10:50.212207864",
+        "updatedAt": "2025-06-27T17:10:50.212208375",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_6hV6nCsDAy",
+        "name": "recursos-didacticos",
+        "description": "",
+        "sortPriority": -1751044200000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_3B6kN7Ap8G",
+        "createdAt": "2025-06-27T17:10:28.721773460",
+        "updatedAt": "2025-06-27T17:10:28.721774061",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_6hV6nCsDAy",
+        "name": "contenidos-modulo",
+        "description": "",
+        "sortPriority": -1751044200000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_JMgpVDUov5",
+        "createdAt": "2025-06-27T15:50:23.484787644",
+        "updatedAt": "2025-06-27T15:52:50.293313794",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_Hd6P38ZsVt",
+        "name": "transacciones-pago",
+        "description": "",
+        "sortPriority": 1000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_TnqFGdyfUU",
+        "createdAt": "2025-06-27T15:47:39.827242089",
+        "updatedAt": "2025-06-27T15:52:50.289749082",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_Hd6P38ZsVt",
+        "name": "planes-precio",
+        "description": "",
+        "sortPriority": 0.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_GJPuaBY8bF",
+        "createdAt": "2025-06-27T14:31:10.841228434",
+        "updatedAt": "2025-06-27T14:31:10.841228945",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_c2NYEFLZUb",
+        "name": "plantillas-notificaciones",
+        "description": "",
+        "sortPriority": -1751034600000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_nwFKHwDtGA",
+        "createdAt": "2025-06-27T14:30:59.375396755",
+        "updatedAt": "2025-06-27T14:30:59.375397296",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_c2NYEFLZUb",
+        "name": "notificaciones",
+        "description": "",
+        "sortPriority": -1751034600000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_yM5NCjW6eH",
+        "createdAt": "2025-06-27T07:22:11.380991625",
+        "updatedAt": "2025-06-27T07:22:11.380992066",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_EU7NbJzvkF",
+        "name": "enrollment-service",
+        "description": "",
+        "sortPriority": -1751009000000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_baqyyfr7Jd",
+        "createdAt": "2025-06-27T07:17:13.189694689",
+        "updatedAt": "2025-06-27T07:17:13.189695260",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_EU7NbJzvkF",
+        "name": "assessments-service",
+        "description": "",
+        "sortPriority": -1751008700000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_6hV6nCsDAy",
+        "createdAt": "2025-06-27T07:16:18.391880665",
+        "updatedAt": "2025-06-27T07:16:18.391881106",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_EU7NbJzvkF",
+        "name": "content-service",
+        "description": "",
+        "sortPriority": -1751008500000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_Hd6P38ZsVt",
+        "createdAt": "2025-06-27T07:16:00.245323193",
+        "updatedAt": "2025-06-27T13:50:34.089165545",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_EU7NbJzvkF",
+        "name": "financial-service",
+        "description": "",
+        "sortPriority": -1751007600000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_c2NYEFLZUb",
+        "createdAt": "2025-06-27T07:15:48.248279484",
+        "updatedAt": "2025-06-27T13:50:30.440651410",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_EU7NbJzvkF",
+        "name": "notifications-service",
+        "description": "",
+        "sortPriority": -1751006700000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_mzbD4YTJJn",
+        "createdAt": "2025-06-27T06:18:17.802246201",
+        "updatedAt": "2025-06-27T15:54:33.188458154",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_epk6cF5wSW",
+        "name": "reporte-generado",
+        "description": "",
+        "sortPriority": 0.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_43EFhiWmdh",
+        "createdAt": "2025-06-27T06:16:17.682709380",
+        "updatedAt": "2025-06-27T15:54:33.191905485",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_epk6cF5wSW",
+        "name": "log-actividad",
+        "description": "",
+        "sortPriority": 1000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_epk6cF5wSW",
+        "createdAt": "2025-06-27T06:15:04.740674558",
+        "updatedAt": "2025-06-27T06:15:04.740674999",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_EU7NbJzvkF",
+        "name": "reporting-service",
+        "description": "",
+        "sortPriority": -1751004900000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_cRLeAZWHdH",
+        "createdAt": "2025-06-27T04:05:43.142341676",
+        "updatedAt": "2025-06-27T04:05:43.142342237",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_REjL93MxgA",
+        "name": "plataforma-virtual",
+        "description": "",
+        "sortPriority": -1750997100000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_AtsW2M4dZY",
+        "createdAt": "2025-06-27T04:05:28.732702863",
+        "updatedAt": "2025-06-27T04:05:28.732703535",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_REjL93MxgA",
+        "name": "periodo-academico",
+        "description": "",
+        "sortPriority": -1750997100000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_NGPFxMcS33",
+        "createdAt": "2025-06-27T04:05:16.931204908",
+        "updatedAt": "2025-06-27T04:05:16.931205779",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_REjL93MxgA",
+        "name": "espacio-fisico",
+        "description": "",
+        "sortPriority": -1750997100000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_B83xZVm8S7",
+        "createdAt": "2025-06-27T04:05:07.977793622",
+        "updatedAt": "2025-06-27T04:05:07.977794213",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_REjL93MxgA",
+        "name": "asignacion-horario",
+        "description": "",
+        "sortPriority": -1750997100000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_REjL93MxgA",
+        "createdAt": "2025-06-27T04:04:20.084565288",
+        "updatedAt": "2025-06-27T04:04:20.084565970",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_EU7NbJzvkF",
+        "name": "resource-planning-service",
+        "description": "",
+        "sortPriority": -1750997000000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_QCZdkY8VZY",
+        "createdAt": "2025-06-25T13:55:34.385373067",
+        "updatedAt": "2025-06-27T04:02:39.872084849",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_xKHeAXrqmL",
+        "name": "usuarios",
+        "description": "",
+        "sortPriority": 0.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_emwE8vdvky",
+        "createdAt": "2025-06-25T13:55:19.665306664",
+        "updatedAt": "2025-06-27T04:02:47.152820588",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_xKHeAXrqmL",
+        "name": "roles",
+        "description": "",
+        "sortPriority": 1000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_znX6mLXN66",
+        "createdAt": "2025-06-25T13:54:22.793562552",
+        "updatedAt": "2025-06-27T04:02:54.472422312",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_xKHeAXrqmL",
+        "name": "permisos",
+        "description": "",
+        "sortPriority": 2000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_xKHeAXrqmL",
+        "createdAt": "2025-06-25T13:21:50.234286863",
+        "updatedAt": "2025-06-25T13:21:52.737162146",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_EU7NbJzvkF",
+        "name": "users-service",
+        "description": "",
+        "sortPriority": 1000.0
+      },
+      {
+        "model": "folder",
+        "id": "fl_EU7NbJzvkF",
+        "createdAt": "2025-06-05T18:16:27.718508595",
+        "updatedAt": "2025-06-05T18:16:30.814907613",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": null,
+        "name": "SKilling",
+        "description": "",
+        "sortPriority": 1000.0
+      }
+    ],
+    "httpRequests": [
+      {
+        "model": "http_request",
+        "id": "rq_7BxuKRJ9f3",
+        "createdAt": "2025-06-28T13:02:01.117254534",
+        "updatedAt": "2025-06-28T13:40:30.833563169",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_RqLg4Vo2CN",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "[\n  \"56483002-3b80-42b9-9fa9-6fdac7d18c3c\"\n]"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "V92EFNdaVu"
+          }
+        ],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/cursos-ofertados/49d8201f-b70b-4c71-974e-366be02374e8/prerequisitos",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_WUeEj2SmKm",
+        "createdAt": "2025-06-28T13:01:59.036974115",
+        "updatedAt": "2025-06-28T13:39:59.133423242",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_RqLg4Vo2CN",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "[\n  \"56483002-3b80-42b9-9fa9-6fdac7d18c3c\"\n]"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "pECpRCdNbT"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/cursos-ofertados/49d8201f-b70b-4c71-974e-366be02374e8/prerequisitos",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_myAVvTQLPX",
+        "createdAt": "2025-06-28T12:11:38.619307819",
+        "updatedAt": "2025-06-28T12:17:41.819896755",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_ZjWzyrFDhU",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "[\n  \"95e1df4e-1d5a-4798-80cd-fd3af617f3f6\"\n]"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "7e77x9NdNY"
+          }
+        ],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/perfiles-curriculares/8df61285-8dd8-4a88-b3b2-190ec288ffb5/competencias",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_q4SoZx7hkQ",
+        "createdAt": "2025-06-28T12:11:36.459049781",
+        "updatedAt": "2025-06-28T12:14:45.618976032",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_ZjWzyrFDhU",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "[\n  \"78e6869b-bfee-4d64-b160-9081086932e3\"\n]"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "hA3u9gfrij"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/perfiles-curriculares/8df61285-8dd8-4a88-b3b2-190ec288ffb5/competencias",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_DM7ze8K9Tc",
+        "createdAt": "2025-06-28T03:50:38.653880977",
+        "updatedAt": "2025-06-28T13:19:41.476202279",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_RqLg4Vo2CN",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/cursos-ofertados/72520ac9-707d-49d4-9760-3b6d9fbb2487",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_oLLkhsayJq",
+        "createdAt": "2025-06-28T03:50:36.693613651",
+        "updatedAt": "2025-06-28T13:19:18.207036267",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_RqLg4Vo2CN",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombreCurso\": \"Física Aplicada\",\n  \"codigoCurso\": \"F12211\",\n  \"creditos\": \"24\",\n  \"descripcion\": \"Curso de Física de Prueba\",\n  \"duracionSemanas\": 16,\n  \"modalidad\": \"VIRTUAL\",\n  \"periodoAcademicoId\": \"a25f13f9-6cab-47ee-9345-f6939853bfd6\",\n  \"planEstudioId\": \"e1af8f17-7790-4343-8ad7-73120bcff9d2\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "3J07bZ4NnE"
+          }
+        ],
+        "method": "PUT",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/cursos-ofertados/72520ac9-707d-49d4-9760-3b6d9fbb2487",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_Xbp35ztAFV",
+        "createdAt": "2025-06-28T03:50:35.493491501",
+        "updatedAt": "2025-06-28T13:13:54.064022105",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_RqLg4Vo2CN",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/cursos-ofertados/49d8201f-b70b-4c71-974e-366be02374e8",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_P2Lg6moiyL",
+        "createdAt": "2025-06-28T03:50:34.253322019",
+        "updatedAt": "2025-06-28T13:13:29.373420996",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_RqLg4Vo2CN",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/cursos-ofertados",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_GBL8eDNhMu",
+        "createdAt": "2025-06-28T03:50:32.133289294",
+        "updatedAt": "2025-06-28T13:18:36.724295694",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_RqLg4Vo2CN",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombreCurso\": \"Física\",\n  \"codigoCurso\": \"F12211\",\n  \"creditos\": \"24\",\n  \"descripcion\": \"Curso de Física de Prueba\",\n  \"duracionSemanas\": 16,\n  \"modalidad\": \"VIRTUAL\",\n  \"periodoAcademicoId\": \"a25f13f9-6cab-47ee-9345-f6939853bfd6\",\n  \"planEstudioId\": \"e1af8f17-7790-4343-8ad7-73120bcff9d2\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "ZKc84y7KW5"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/cursos-ofertados",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_sjyVew3raD",
+        "createdAt": "2025-06-28T03:50:27.508505937",
+        "updatedAt": "2025-06-28T05:22:55.769785054",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_ZjWzyrFDhU",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/perfiles-curriculares/7ea9a963-47df-40b8-a873-ce7e38a75344",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_tDUUMuNeXK",
+        "createdAt": "2025-06-28T03:50:26.268618639",
+        "updatedAt": "2025-06-28T13:49:20.172099089",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_ZjWzyrFDhU",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombrePerfil\": \"Sexto z\",\n  \"descripcion\": \"Prueba de perfil curricular\",\n  \"modeloEducativoId\": \"e070989a-80b7-43bf-b3cf-616537d67040\",\n  \"competenciaIds\": [\n    \"2c2d49f8-9d6e-4bdf-ae32-a16c872c2c14\",\n    \"95e1df4e-1d5a-4798-80cd-fd3af617f3f6\"\n  ]\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "iwHhA2T099"
+          }
+        ],
+        "method": "PUT",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/perfiles-curriculares/8df61285-8dd8-4a88-b3b2-190ec288ffb5",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_ijdftpDPxs",
+        "createdAt": "2025-06-28T03:50:25.044321632",
+        "updatedAt": "2025-06-28T05:25:00.537662411",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_ZjWzyrFDhU",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/perfiles-curriculares/8df61285-8dd8-4a88-b3b2-190ec288ffb5",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_MdSjn7j3zF",
+        "createdAt": "2025-06-28T03:50:23.627935973",
+        "updatedAt": "2025-06-28T12:59:42.372024454",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_ZjWzyrFDhU",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/perfiles-curriculares",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_Sp2nsEnJb6",
+        "createdAt": "2025-06-28T03:50:22.188189535",
+        "updatedAt": "2025-06-28T13:48:52.623008979",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_ZjWzyrFDhU",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombrePerfil\": \"Sexto\",\n  \"descripcion\": \"Prueba de perfil curricular\",\n  \"modeloEducativoId\": \"e070989a-80b7-43bf-b3cf-616537d67040\",\n  \"competenciaIds\": [\n    \"2c2d49f8-9d6e-4bdf-ae32-a16c872c2c14\",\n    \"95e1df4e-1d5a-4798-80cd-fd3af617f3f6\"\n  ]\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "TVxXFKIcjn"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/perfiles-curriculares",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_jbKCSyUTr4",
+        "createdAt": "2025-06-28T03:02:56.475511376",
+        "updatedAt": "2025-06-28T03:49:22.711537693",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_cvD5UK9mqw",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/modelos-educativos/914a71d9-a72f-4960-a387-9319ab65cc47",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_iyx4aDHkDH",
+        "createdAt": "2025-06-28T03:02:54.963316660",
+        "updatedAt": "2025-06-28T03:43:14.432649428",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_cvD5UK9mqw",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombreModelo\": \"Esta es una prueba\",\n  \"descripcion\": \"Este es un modelo educativo de prueba\",\n  \"version\": \"2\",\n  \"estado\": \"INACTIVO\",\n  \"usuariosId\": \"211e9bed-083f-477f-b751-fb1b3ab39cc2\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "xe3KQqBJI4"
+          }
+        ],
+        "method": "PUT",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/modelos-educativos/914a71d9-a72f-4960-a387-9319ab65cc47",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_7tfm57HRn9",
+        "createdAt": "2025-06-28T03:02:53.635322274",
+        "updatedAt": "2025-06-28T03:17:47.048146908",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_cvD5UK9mqw",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/modelos-educativos/e070989a-80b7-43bf-b3cf-616537d67040",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_XeQN8Gkhhf",
+        "createdAt": "2025-06-28T03:02:52.371579191",
+        "updatedAt": "2025-06-28T03:08:42.659363547",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_cvD5UK9mqw",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/modelos-educativos",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_GiKiaZjGJJ",
+        "createdAt": "2025-06-28T03:02:49.299114730",
+        "updatedAt": "2025-06-28T03:42:49.197092440",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_cvD5UK9mqw",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombreModelo\": \"Esta es una prueba\",\n  \"descripcion\": \"Este es un modelo educativo de prueba\",\n  \"version\": \"2\",\n  \"estado\": \"ACTIVO\",\n  \"usuariosId\": \"211e9bed-083f-477f-b751-fb1b3ab39cc2\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "ssp0SMM9f5"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/modelos-educativos",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_p2BBKqasCo",
+        "createdAt": "2025-06-28T03:02:46.882769284",
+        "updatedAt": "2025-06-28T03:38:28.116849671",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_yJqeA2nX89",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/modulos/446ba1a0-8cc0-4369-a658-48d33e98ac18",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_BHhtw2EHjV",
+        "createdAt": "2025-06-28T03:02:45.650184076",
+        "updatedAt": "2025-06-28T03:38:19.513732784",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_yJqeA2nX89",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombreModulo\": \"Agenda\",\n  \"orden\": 2,\n  \"descripcion\": \"Este modulo será para desarrollo educativo\",\n  \"objetivosAprendizaje\": \"Poder aprender nuevos métodos educativos\",\n  \"cursoOfertadoId\": \"49d8201f-b70b-4c71-974e-366be02374e8\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "EtvKhpfPhu"
+          }
+        ],
+        "method": "PUT",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/modulos/446ba1a0-8cc0-4369-a658-48d33e98ac18",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_DxyDGKTFAS",
+        "createdAt": "2025-06-28T03:02:44.282350991",
+        "updatedAt": "2025-06-28T03:17:55.824979291",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_yJqeA2nX89",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/modulos/34425b64-98c9-47d4-9b66-911092db466e",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_LRgmUJf5Um",
+        "createdAt": "2025-06-28T03:02:42.665813555",
+        "updatedAt": "2025-06-28T03:09:09.598752942",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_yJqeA2nX89",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/modulos",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_8zKoSeXGfV",
+        "createdAt": "2025-06-28T03:02:41.009492836",
+        "updatedAt": "2025-06-28T03:37:47.503209646",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_yJqeA2nX89",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombreModulo\": \"Educativo\",\n  \"orden\": 2,\n  \"descripcion\": \"Este modulo será para desarrollo educativo\",\n  \"objetivosAprendizaje\": \"Poder aprender nuevos métodos educativos\",\n  \"cursoOfertadoId\": \"49d8201f-b70b-4c71-974e-366be02374e8\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "MeFcRFYjSv"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/modulos",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_q9gZZPE7xL",
+        "createdAt": "2025-06-28T03:02:37.209033094",
+        "updatedAt": "2025-06-28T03:30:32.520645633",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_87QnVSeMHV",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/planes-estudio/3f302eb4-8b52-4662-b2ca-b9c51b1d2c92",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_4UTHXQmQSk",
+        "createdAt": "2025-06-28T03:02:35.536943452",
+        "updatedAt": "2025-06-28T03:30:03.620530379",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_87QnVSeMHV",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombrePlan\": \"Plan Educativo 2020\",\n  \"version\": \"2\",\n  \"fechaAprobacion\": \"2025-10-25\",\n  \"estado\": \"ACTIVO\",\n  \"modeloEducativoId\": \"e070989a-80b7-43bf-b3cf-616537d67040\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "5ZkQQeAEai"
+          }
+        ],
+        "method": "PUT",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/planes-estudio/3f302eb4-8b52-4662-b2ca-b9c51b1d2c92",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_y3HzQduGrw",
+        "createdAt": "2025-06-28T03:02:34.272936048",
+        "updatedAt": "2025-06-28T03:18:04.905998436",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_87QnVSeMHV",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/planes-estudio/e1af8f17-7790-4343-8ad7-73120bcff9d2",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_tuazoTXbEg",
+        "createdAt": "2025-06-28T03:02:32.944439791",
+        "updatedAt": "2025-06-28T03:10:32.905296189",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_87QnVSeMHV",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/planes-estudio",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_gEfaYJHaGn",
+        "createdAt": "2025-06-28T03:02:31.480295711",
+        "updatedAt": "2025-06-28T03:28:38.234971538",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_87QnVSeMHV",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombrePlan\": \"Plan Educativo 2025\",\n  \"version\": \"2\",\n  \"fechaAprobacion\": \"2025-10-25\",\n  \"estado\": \"ACTIVO\",\n  \"modeloEducativoId\": \"e070989a-80b7-43bf-b3cf-616537d67040\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "eXmNa9TBkh"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/planes-estudio",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_knTUoSgisd",
+        "createdAt": "2025-06-28T03:02:16.966810203",
+        "updatedAt": "2025-06-28T03:26:13.599925152",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_8nHuH8iuRk",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/competencias/80e9bc0b-dd94-412b-85d5-b9c8c1a34d19",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_t9hjUdtveS",
+        "createdAt": "2025-06-28T03:02:15.262370943",
+        "updatedAt": "2025-06-28T03:24:49.117396189",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_8nHuH8iuRk",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombreCompetencia\": \"Historia de la Música\",\n  \"descripcion\": \"Prueba\",\n  \"nivelEsperado\": \"Competente\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "QxXU5VErZU"
+          }
+        ],
+        "method": "PUT",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/competencias/80e9bc0b-dd94-412b-85d5-b9c8c1a34d19",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_v3QnXgEWM2",
+        "createdAt": "2025-06-28T03:02:14.062039075",
+        "updatedAt": "2025-06-28T03:18:15.019231636",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_8nHuH8iuRk",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/competencias/99d78044-a078-4f7b-bba9-67334a17e7b9",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_s5CFrzG7ZP",
+        "createdAt": "2025-06-28T03:02:13.021936105",
+        "updatedAt": "2025-06-28T03:10:54.859692969",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_8nHuH8iuRk",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/competencias",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_jzEfaYBmnJ",
+        "createdAt": "2025-06-28T03:02:11.646030908",
+        "updatedAt": "2025-06-28T03:23:55.572338766",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_8nHuH8iuRk",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombreCompetencia\": \"Historia del Arte\",\n  \"descripcion\": \"Prueba\",\n  \"nivelEsperado\": \"Competente\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "ksUYuYde0H"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/curriculum/v1/competencias",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_qtQYNPHNYD",
+        "createdAt": "2025-06-27T20:23:44.810744250",
+        "updatedAt": "2025-06-27T23:21:07.437113650",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_4UboRKfPCH",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/enrollment/v1/asistencias/7136d157-6fda-4817-a52e-e934f36e82ad",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_CUNpPGCiYf",
+        "createdAt": "2025-06-27T20:23:42.994766329",
+        "updatedAt": "2025-06-27T23:18:11.863106389",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_4UboRKfPCH",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"estadoAsistencia\": \"AUSENTE\",\n  \"inscripcionId\": \"44a8b8d3-e4e3-409d-87a0-acb23d9724f2\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "UkYDRiwgZH"
+          }
+        ],
+        "method": "PUT",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/enrollment/v1/asistencias/7136d157-6fda-4817-a52e-e934f36e82ad",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_niSTF8noa5",
+        "createdAt": "2025-06-27T20:23:41.450493528",
+        "updatedAt": "2025-06-27T23:17:45.403622142",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_4UboRKfPCH",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/enrollment/v1/asistencias/7136d157-6fda-4817-a52e-e934f36e82ad",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_FbxTLcXJ9E",
+        "createdAt": "2025-06-27T20:23:40.202451240",
+        "updatedAt": "2025-06-27T23:11:53.767468791",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_4UboRKfPCH",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/enrollment/v1/asistencias",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_mxmUu8JZtP",
+        "createdAt": "2025-06-27T20:23:38.882820302",
+        "updatedAt": "2025-06-27T23:17:32.786827182",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_4UboRKfPCH",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"estadoAsistencia\": \"PRESENTE\",\n  \"inscripcionId\": \"44a8b8d3-e4e3-409d-87a0-acb23d9724f2\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "am0jpkMfQn"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/enrollment/v1/asistencias",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_7iHqPdLNMG",
+        "createdAt": "2025-06-27T20:22:56.837236056",
+        "updatedAt": "2025-06-27T21:52:21.219943488",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_PTwdS4LkGf",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/enrollment/v1/foros/c0277ac1-986d-4af3-9342-ebda3d90f524",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_HerMMDMAFU",
+        "createdAt": "2025-06-27T20:22:55.476936191",
+        "updatedAt": "2025-06-27T21:51:50.029550524",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_PTwdS4LkGf",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombreForo\": \"Foro de Geometría\",\n  \"descripcion\": \"Este es un foro para el curso de Aritmética\",\n  \"cursoOfertadoId\": \"49d8201f-b70b-4c71-974e-366be02374e8\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "40cUR3VzQb"
+          }
+        ],
+        "method": "PUT",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/enrollment/v1/foros/c0277ac1-986d-4af3-9342-ebda3d90f524",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_r3eZ6oXE36",
+        "createdAt": "2025-06-27T20:22:54.124362287",
+        "updatedAt": "2025-06-27T21:47:26.986947961",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_PTwdS4LkGf",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/enrollment/v1/foros/d0888774-9f17-46f7-b412-be3f4112fa2a",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_c2iDkzRTgk",
+        "createdAt": "2025-06-27T20:22:52.764443041",
+        "updatedAt": "2025-06-27T21:47:03.620161781",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_PTwdS4LkGf",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/enrollment/v1/foros",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_jSPHBp9E4P",
+        "createdAt": "2025-06-27T20:22:50.500157160",
+        "updatedAt": "2025-06-27T21:51:01.283050080",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_PTwdS4LkGf",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombreForo\": \"Foro de Aritmética\",\n  \"descripcion\": \"Este es un foro para el curso de Aritmética\",\n  \"cursoOfertadoId\": \"49d8201f-b70b-4c71-974e-366be02374e8\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "8mCEAdxva0"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/enrollment/v1/foros",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_i7uxXkRqds",
+        "createdAt": "2025-06-27T20:22:40.467107699",
+        "updatedAt": "2025-06-27T22:06:49.545656859",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_M76E6ewLV3",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/enrollment/v1/seguimientos-progreso/1dff2695-d839-4c31-9a4e-97bc66440386",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_TgjkoPZJDd",
+        "createdAt": "2025-06-27T20:22:38.638082988",
+        "updatedAt": "2025-06-27T22:06:44.008218208",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_M76E6ewLV3",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"completado\": true,\n  \"puntajeObtenidoModulo\": 50,\n  \"inscripcionId\": \"44a8b8d3-e4e3-409d-87a0-acb23d9724f2\",\n  \"moduloId\": \"34425b64-98c9-47d4-9b66-911092db466e\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "Grmb3kAan2"
+          }
+        ],
+        "method": "PUT",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/enrollment/v1/seguimientos-progreso/1dff2695-d839-4c31-9a4e-97bc66440386",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_DUSkfz6YWW",
+        "createdAt": "2025-06-27T20:22:37.290142854",
+        "updatedAt": "2025-06-27T22:05:04.115400309",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_M76E6ewLV3",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/enrollment/v1/seguimientos-progreso/1dff2695-d839-4c31-9a4e-97bc66440386",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_pRwFfbHVy4",
+        "createdAt": "2025-06-27T20:22:36.050180155",
+        "updatedAt": "2025-06-27T21:53:55.023773970",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_M76E6ewLV3",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/enrollment/v1/seguimientos-progreso",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_LV6iReRbwu",
+        "createdAt": "2025-06-27T20:22:33.946172463",
+        "updatedAt": "2025-06-27T22:06:14.611529149",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_M76E6ewLV3",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"completado\": true,\n  \"puntajeObtenidoModulo\": 50,\n  \"inscripcionId\": \"44a8b8d3-e4e3-409d-87a0-acb23d9724f2\",\n  \"moduloId\": \"34425b64-98c9-47d4-9b66-911092db466e\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "ieAI7hEnfb"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/enrollment/v1/seguimientos-progreso",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_fjnu2f92rZ",
+        "createdAt": "2025-06-27T20:22:22.416759177",
+        "updatedAt": "2025-06-27T23:09:16.980049158",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_Y6H2YeXfdU",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/enrollment/v1/publicaciones-foro/a7930c81-f657-4851-97b7-c12c68993d12",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_DgK4QKDjVP",
+        "createdAt": "2025-06-27T20:22:20.816076001",
+        "updatedAt": "2025-06-27T23:08:41.591598209",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_Y6H2YeXfdU",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"contenido\": \"Pruebaa\",\n  \"usuariosId\": \"1b17060e-a21c-4402-a65e-b2cee67a63a7\",\n  \"foroId\": \"d0888774-9f17-46f7-b412-be3f4112fa2a\",\n  \"publicacionForoId\": null\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "IVIkSf3GCF"
+          }
+        ],
+        "method": "PUT",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/enrollment/v1/publicaciones-foro/a7930c81-f657-4851-97b7-c12c68993d12",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_cp4BF8qm3T",
+        "createdAt": "2025-06-27T20:22:19.504090457",
+        "updatedAt": "2025-06-27T23:07:27.310845419",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_Y6H2YeXfdU",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/enrollment/v1/publicaciones-foro/be4a2b38-ab0c-4c5a-b8ae-4e48e05cbb24",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_Qx5rYvdThv",
+        "createdAt": "2025-06-27T20:22:17.896271140",
+        "updatedAt": "2025-06-27T21:38:37.614199309",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_Y6H2YeXfdU",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/enrollment/v1/publicaciones-foro",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_hhezmVcc9c",
+        "createdAt": "2025-06-27T20:22:16.543595743",
+        "updatedAt": "2025-06-27T23:07:41.185405581",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_Y6H2YeXfdU",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"contenido\": \"Pruebaa\",\n  \"usuariosId\": \"1b17060e-a21c-4402-a65e-b2cee67a63a7\",\n  \"foroId\": \"d0888774-9f17-46f7-b412-be3f4112fa2a\",\n  \"publicacionForoId\": \"cf77c885-3c01-4eb8-a24c-4a52c2d86a8e\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "HXKZHNUMfh"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/enrollment/v1/publicaciones-foro",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_CnckWm2s56",
+        "createdAt": "2025-06-27T20:22:05.270118703",
+        "updatedAt": "2025-06-27T21:45:02.924230295",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_RgNQCg7zQx",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/enrollment/v1/mensajes/5b470852-d93e-4113-b2bc-6e9f5e2973b4",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_NhJeU2fasW",
+        "createdAt": "2025-06-27T20:22:03.862517187",
+        "updatedAt": "2025-06-27T21:44:43.541428353",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_RgNQCg7zQx",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"asunto\": \"Pruebaa\",\n  \"contenido\": \"Esta es una prueba\",\n  \"usuariosId\": \"1b17060e-a21c-4402-a65e-b2cee67a63a7\",\n  \"foroId\": \"d0888774-9f17-46f7-b412-be3f4112fa2a\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "8fYaWXnSrv"
+          }
+        ],
+        "method": "PUT",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/enrollment/v1/mensajes/5b470852-d93e-4113-b2bc-6e9f5e2973b4",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_g6n4HpRdTW",
+        "createdAt": "2025-06-27T20:22:02.350224431",
+        "updatedAt": "2025-06-27T21:44:16.887378254",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_RgNQCg7zQx",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/enrollment/v1/mensajes/5b470852-d93e-4113-b2bc-6e9f5e2973b4",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_KVkGCWn3DB",
+        "createdAt": "2025-06-27T20:22:01.134039146",
+        "updatedAt": "2025-06-27T21:38:13.513647661",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_RgNQCg7zQx",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/enrollment/v1/mensajes",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_for7t8goF4",
+        "createdAt": "2025-06-27T20:21:59.584310150",
+        "updatedAt": "2025-06-27T21:44:21.110969482",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_RgNQCg7zQx",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"asunto\": \"Pruebaa\",\n  \"contenido\": \"Esta es una prueba\",\n  \"usuariosId\": \"1b17060e-a21c-4402-a65e-b2cee67a63a7\",\n  \"foroId\": \"d0888774-9f17-46f7-b412-be3f4112fa2a\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "FkVAVCvXYT"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/enrollment/v1/mensajes",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_7viXXghHLW",
+        "createdAt": "2025-06-27T20:21:48.788017514",
+        "updatedAt": "2025-06-27T21:35:16.427110251",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_BuVLc45W3c",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/enrollment/v1/inscripciones/db85163b-b351-4fbf-a0b1-f3b073ecf0c7",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_3hVXFqX3Yn",
+        "createdAt": "2025-06-27T20:21:46.995738277",
+        "updatedAt": "2025-06-27T21:33:54.928028307",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_BuVLc45W3c",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"estado\": \"ABANDONADO\",\n  \"fechaFinalizacion\": \"2025-11-25\",\n  \"progresoPorcentaje\": 95,\n  \"usuariosId\": \"211e9bed-083f-477f-b751-fb1b3ab39cc2\",\n  \"cursoOfertadoId\": \"49d8201f-b70b-4c71-974e-366be02374e8\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "hJWR5GqNTZ"
+          }
+        ],
+        "method": "PUT",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/enrollment/v1/inscripciones/db85163b-b351-4fbf-a0b1-f3b073ecf0c7",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_NQkMX9Qsqb",
+        "createdAt": "2025-06-27T20:21:45.643692511",
+        "updatedAt": "2025-06-27T21:29:37.471554704",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_BuVLc45W3c",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/enrollment/v1/inscripciones/44a8b8d3-e4e3-409d-87a0-acb23d9724f2",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_kh3zNbSy4H",
+        "createdAt": "2025-06-27T20:21:44.251370465",
+        "updatedAt": "2025-06-27T21:29:25.366164984",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_BuVLc45W3c",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/enrollment/v1/inscripciones",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_7fBBJC4Xu6",
+        "createdAt": "2025-06-27T20:21:42.787470536",
+        "updatedAt": "2025-06-27T21:33:12.579164546",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_BuVLc45W3c",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"estado\": \"COMPLETADO\",\n  \"fechaFinalizacion\": \"2025-11-25\",\n  \"progresoPorcentaje\": 95,\n  \"usuariosId\": \"211e9bed-083f-477f-b751-fb1b3ab39cc2\",\n  \"cursoOfertadoId\": \"49d8201f-b70b-4c71-974e-366be02374e8\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "i4TaD8dpnT"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/enrollment/v1/inscripciones",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_Vk7AZqMWiF",
+        "createdAt": "2025-06-27T17:16:39.359695178",
+        "updatedAt": "2025-06-27T19:30:33.749499479",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_9PKTfm5uay",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/assessments/v1/evaluaciones/2a869f14-1c7d-412a-b0ba-5256c42962d5",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_yamVhVyQXU",
+        "createdAt": "2025-06-27T17:16:36.719019450",
+        "updatedAt": "2025-06-27T19:29:47.496025732",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_9PKTfm5uay",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombreEvaluacion\": \"Prueba\",\n  \"tipoEvaluacion\": \"PROYECTO\",\n  \"porcentajeCalificacion\": 0.15,\n  \"fechaVencimiento\": \"2025-12-31\",\n  \"descripcion\": \"Prueba descripcion\",\n  \"pesoRelativo\": 0.30,\n  \"puntajeMaximo\": 20,\n  \"cursoOfertadoId\": \"49d8201f-b70b-4c71-974e-366be02374e8\",\n  \"moduloId\": \"34425b64-98c9-47d4-9b66-911092db466e\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "CCcINhtB5r"
+          }
+        ],
+        "method": "PUT",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/assessments/v1/evaluaciones/29ab3078-36dd-4abf-b628-500232ef0d71",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_XYPiwubu2b",
+        "createdAt": "2025-06-27T17:16:35.271013843",
+        "updatedAt": "2025-06-27T19:29:09.546514467",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_9PKTfm5uay",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/assessments/v1/evaluaciones/29ab3078-36dd-4abf-b628-500232ef0d71",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_GdZkFsGZue",
+        "createdAt": "2025-06-27T17:16:34.103111823",
+        "updatedAt": "2025-06-27T19:08:07.068138857",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_9PKTfm5uay",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/assessments/v1/evaluaciones",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_xEJ5BG9EwK",
+        "createdAt": "2025-06-27T17:16:32.862812759",
+        "updatedAt": "2025-06-27T19:30:17.345393636",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_9PKTfm5uay",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombreEvaluacion\": \"Prueba 2\",\n  \"tipoEvaluacion\": \"PROYECTO\",\n  \"porcentajeCalificacion\": 0.15,\n  \"fechaVencimiento\": \"2025-12-31\",\n  \"descripcion\": \"Prueba descripcion 2\",\n  \"pesoRelativo\": 0.30,\n  \"puntajeMaximo\": 20,\n  \"cursoOfertadoId\": \"49d8201f-b70b-4c71-974e-366be02374e8\",\n  \"moduloId\": \"34425b64-98c9-47d4-9b66-911092db466e\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "cicB7a0x6j"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/assessments/v1/evaluaciones",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_n3yLa6vbAB",
+        "createdAt": "2025-06-27T17:16:30.518084504",
+        "updatedAt": "2025-06-27T19:36:45.748230467",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_WLd4rV9MuM",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/assessments/v1/calificaciones/98f0a4d6-00a2-4ad9-8c07-a165b6a07309",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_vXfevtiYsb",
+        "createdAt": "2025-06-27T17:16:29.381890021",
+        "updatedAt": "2025-06-27T19:35:32.562637580",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_WLd4rV9MuM",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"puntajeObtenido\": 10,\n  \"comentariosDocente\": \"Excelente trabajo\",\n  \"inscripcionId\": \"44a8b8d3-e4e3-409d-87a0-acb23d9724f2\",\n  \"evaluacionId\": \"29ab3078-36dd-4abf-b628-500232ef0d71\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "jNADzGMqFk"
+          }
+        ],
+        "method": "PUT",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/assessments/v1/calificaciones/98f0a4d6-00a2-4ad9-8c07-a165b6a07309",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_iErvFHpFvZ",
+        "createdAt": "2025-06-27T17:16:28.310414644",
+        "updatedAt": "2025-06-27T19:35:11.287675304",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_WLd4rV9MuM",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/assessments/v1/calificaciones/98f0a4d6-00a2-4ad9-8c07-a165b6a07309",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_zfQfw8E75L",
+        "createdAt": "2025-06-27T17:16:27.141734796",
+        "updatedAt": "2025-06-27T19:08:27.718612449",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_WLd4rV9MuM",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/assessments/v1/calificaciones",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_wuxaFomGzQ",
+        "createdAt": "2025-06-27T17:16:25.901736279",
+        "updatedAt": "2025-06-27T19:35:47.771828396",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_WLd4rV9MuM",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"puntajeObtenido\": 16,\n  \"comentariosDocente\": \"Excelente trabajo\",\n  \"inscripcionId\": \"44a8b8d3-e4e3-409d-87a0-acb23d9724f2\",\n  \"evaluacionId\": \"29ab3078-36dd-4abf-b628-500232ef0d71\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "RfDRVrYqGF"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/assessments/v1/calificaciones",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_6jWp7Z6ab2",
+        "createdAt": "2025-06-27T17:16:24.717344409",
+        "updatedAt": "2025-06-27T19:42:43.712754081",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_Fe5p7pUZ9c",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/assessments/v1/certificados/196291da-513d-4959-8572-b0fba352cee0",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_tueajVpgri",
+        "createdAt": "2025-06-27T17:16:23.413350332",
+        "updatedAt": "2025-06-27T19:42:35.151481299",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_Fe5p7pUZ9c",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"urlCertificado\": \"https://arxiv.orgas\",\n  \"codigoVerificacion\": \"1221233212saa2\",\n  \"inscripcionId\": \"44a8b8d3-e4e3-409d-87a0-acb23d9724f2\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "v6ZIvD7nRF"
+          }
+        ],
+        "method": "PUT",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/assessments/v1/certificados/196291da-513d-4959-8572-b0fba352cee0",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_sXuCiEmY52",
+        "createdAt": "2025-06-27T17:16:22.205000070",
+        "updatedAt": "2025-06-27T19:42:00.377341279",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_Fe5p7pUZ9c",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "MjmpxViFM4"
+          }
+        ],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/assessments/v1/certificados/196291da-513d-4959-8572-b0fba352cee0",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_fkHi8ZdDLF",
+        "createdAt": "2025-06-27T17:16:20.980894096",
+        "updatedAt": "2025-06-27T19:08:48.240814320",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_Fe5p7pUZ9c",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/assessments/v1/certificados",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_NiEWf8MJBH",
+        "createdAt": "2025-06-27T17:16:19.589283065",
+        "updatedAt": "2025-06-27T19:41:33.680229780",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_Fe5p7pUZ9c",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"urlCertificado\": \"https://arxiv.org\",\n  \"codigoVerificacion\": \"12212332122\",\n  \"inscripcionId\": \"44a8b8d3-e4e3-409d-87a0-acb23d9724f2\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "0QM5hCkPrI"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/assessments/v1/certificados",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_iAZnJopHfL",
+        "createdAt": "2025-06-27T17:11:28.072070930",
+        "updatedAt": "2025-06-27T19:26:22.589971404",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_3B6kN7Ap8G",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/content/v1/contenidos-modulo/86c4e333-f495-456c-a6f7-a984cd54b87e",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_LvvHk5fRT8",
+        "createdAt": "2025-06-27T17:11:26.727757389",
+        "updatedAt": "2025-06-27T19:25:38.903832893",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_3B6kN7Ap8G",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"ordenModulo\": 2,\n  \"recursoDidacticoId\": \"34046944-0500-47e0-bc0a-4a1f30a6c554\",\n  \"moduloId\": \"34425b64-98c9-47d4-9b66-911092db466e\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "5V0xBRUehq"
+          }
+        ],
+        "method": "PUT",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/content/v1/contenidos-modulo/86c4e333-f495-456c-a6f7-a984cd54b87e",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_xmUSaK5XkW",
+        "createdAt": "2025-06-27T17:11:25.207575603",
+        "updatedAt": "2025-06-27T17:55:34.780139416",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_Rid7aEDZPM",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/content/v1/recursos-didacticos/dc32b6b7-2366-4e76-949f-582b93dfbb2f",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_7SVtCRkz9T",
+        "createdAt": "2025-06-27T17:11:23.983377187",
+        "updatedAt": "2025-06-27T18:22:08.952930578",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_Rid7aEDZPM",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombreArchivo\": \"Es un tipo de archivo de pruebaa\",\n  \"tipoArchivo\": \"PPT\",\n  \"url\": \"https://storage.example.com/sprisng-presentacion\",\n  \"metadata\": {\n    \"tipo\": \"Prueba\",\n    \"paginas\": 5\n  },\n  \"version\": 3,\n  \"esActivo\": true,\n  \"usuariosId\": \"8eb16c67-4528-4e8b-a1fe-0915d003aac0\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "nWnBqgzgwN"
+          }
+        ],
+        "method": "PUT",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/content/v1/recursos-didacticos/e84108d5-6c13-4c75-ac79-f119926826cb",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_QDyxVEcKEi",
+        "createdAt": "2025-06-27T17:11:22.447295766",
+        "updatedAt": "2025-06-27T19:25:11.964663453",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_3B6kN7Ap8G",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/content/v1/contenidos-modulo/86c4e333-f495-456c-a6f7-a984cd54b87e",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_hqPDjAswbM",
+        "createdAt": "2025-06-27T17:11:21.095166893",
+        "updatedAt": "2025-06-27T17:48:43.941219006",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_3B6kN7Ap8G",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/content/v1/contenidos-modulo",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_b8G42FpSyz",
+        "createdAt": "2025-06-27T17:11:19.838830884",
+        "updatedAt": "2025-06-27T19:23:46.179414902",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_3B6kN7Ap8G",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"ordenModulo\": 1,\n  \"recursoDidacticoId\": \"34046944-0500-47e0-bc0a-4a1f30a6c554\",\n  \"moduloId\": \"34425b64-98c9-47d4-9b66-911092db466e\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "eKvU6CJQ7k"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/content/v1/contenidos-modulo",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_9Xngdd8pFU",
+        "createdAt": "2025-06-27T17:11:18.262663441",
+        "updatedAt": "2025-06-27T17:57:04.556448657",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_Rid7aEDZPM",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/content/v1/recursos-didacticos/34046944-0500-47e0-bc0a-4a1f30a6c554",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_oWo8PZVFxp",
+        "createdAt": "2025-06-27T17:11:17.054685697",
+        "updatedAt": "2025-06-27T17:50:38.860619516",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_Rid7aEDZPM",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/content/v1/recursos-didacticos",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_QdKSPdu5eQ",
+        "createdAt": "2025-06-27T17:11:15.558578901",
+        "updatedAt": "2025-06-27T18:21:33.740171136",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_Rid7aEDZPM",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombreArchivo\": \"Es un tipo de archivo de prueba\",\n  \"tipoArchivo\": \"PPT\",\n  \"url\": \"https://storage.example.com/sprisng-presentacion\",\n  \"metadata\": {\n    \"tipo\": \"Prueba\",\n    \"paginas\": 5\n  },\n  \"version\": 3,\n  \"esActivo\": true,\n  \"usuariosId\": \"8eb16c67-4528-4e8b-a1fe-0915d003aac0\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "FVHjtdycHk"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/content/v1/recursos-didacticos",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_KAcLFb9WDw",
+        "createdAt": "2025-06-27T15:50:36.402702957",
+        "updatedAt": "2025-06-27T17:09:10.418620379",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_JMgpVDUov5",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/financial/v1/transacciones-pago/1165e1cc-8b44-4b8c-905e-669eb39f8b2d",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_aJr8Snatc7",
+        "createdAt": "2025-06-27T15:50:34.842393546",
+        "updatedAt": "2025-06-27T17:05:07.691183623",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_JMgpVDUov5",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"montoPagado\": 32.22,\n  \"metodoPago\": \"PAYPAL\",\n  \"estadoPago\": \"COMPLETADO\",\n  \"referenciaExterna\": \"Prueba\",\n  \"usuariosId\": \"211e9bed-083f-477f-b751-fb1b3ab39cc2\",\n  \"planPrecioId\": \"d973edd2-64a2-440e-92c9-b5896109fc01\",\n  \"cursoOfertadoId\": \"49d8201f-b70b-4c71-974e-366be02374e8\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "rAaakfmbw0"
+          }
+        ],
+        "method": "PUT",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/financial/v1/transacciones-pago/1165e1cc-8b44-4b8c-905e-669eb39f8b2d",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_rGposch7U6",
+        "createdAt": "2025-06-27T15:50:33.690401443",
+        "updatedAt": "2025-06-27T17:04:28.054249824",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_JMgpVDUov5",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/financial/v1/transacciones-pago/1165e1cc-8b44-4b8c-905e-669eb39f8b2d",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_cpiRFqTGNy",
+        "createdAt": "2025-06-27T15:50:32.490148310",
+        "updatedAt": "2025-06-27T16:59:55.060662335",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_JMgpVDUov5",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/financial/v1/transacciones-pago",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_sGzTwQN59Z",
+        "createdAt": "2025-06-27T15:50:30.946168527",
+        "updatedAt": "2025-06-27T17:08:24.074890902",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_JMgpVDUov5",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"montoPagado\": 30.22,\n  \"metodoPago\": \"TARJETA DE DEBITO\",\n  \"estadoPago\": \"REEMBOLSO\",\n  \"referenciaExterna\": \"Pruebaas\",\n  \"usuariosId\": \"0b309a9d-f605-49a9-84e8-090783049c0b\",\n  \"planPrecioId\": \"d973edd2-64a2-440e-92c9-b5896109fc01\",\n  \"cursoOfertadoId\": \"49d8201f-b70b-4c71-974e-366be02374e8\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "BgHVe7YXvA"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/financial/v1/transacciones-pago",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_aJuRFr3PE6",
+        "createdAt": "2025-06-27T15:49:21.889318306",
+        "updatedAt": "2025-06-27T16:56:02.391654652",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_TnqFGdyfUU",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/financial/v1/planes-precio/147487e2-1928-4113-a90a-74e4da637863",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_8TEhV2hFtU",
+        "createdAt": "2025-06-27T15:49:20.537093748",
+        "updatedAt": "2025-06-27T16:55:41.821076293",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_TnqFGdyfUU",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombrePlan\": \"Pruaebas\",\n  \"version\": \"22012212\",\n  \"fechaAprobacion\": \"2025-12-31\",\n  \"estado\": \"CURSO\",\n  \"cursoOfertadoId\": \"49d8201f-b70b-4c71-974e-366be02374e8\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "w63qqfGmYV"
+          }
+        ],
+        "method": "PUT",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/financial/v1/planes-precio/147487e2-1928-4113-a90a-74e4da637863",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_JB75t3wVZV",
+        "createdAt": "2025-06-27T15:49:19.321366804",
+        "updatedAt": "2025-06-27T16:53:49.575855985",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_TnqFGdyfUU",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/financial/v1/planes-precio/147487e2-1928-4113-a90a-74e4da637863",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_FYJ7nwwyPm",
+        "createdAt": "2025-06-27T15:49:17.441245224",
+        "updatedAt": "2025-06-27T16:11:49.528136646",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_TnqFGdyfUU",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/financial/v1/planes-precio",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_QsJ6ovoKvf",
+        "createdAt": "2025-06-27T15:49:16.065188340",
+        "updatedAt": "2025-06-27T16:20:22.543037084",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_TnqFGdyfUU",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombrePlan\": \"Pruebas\",\n  \"version\": \"22012212\",\n  \"fechaAprobacion\": \"2025-12-31\",\n  \"estado\": \"ANUAL\",\n  \"cursoOfertadoId\": \"49d8201f-b70b-4c71-974e-366be02374e8\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "Yhu5sanFtp"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": -1751039356064.0,
+        "url": "http://localhost:8080/api/financial/v1/planes-precio",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_HobaHP5Rzr",
+        "createdAt": "2025-06-27T14:31:30.922266724",
+        "updatedAt": "2025-06-27T14:38:57.285935075",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_nwFKHwDtGA",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/notifications/v1/notificaciones/e3396825-d3b0-467f-824f-f7cf3b6fa518",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_8SEJZDCft9",
+        "createdAt": "2025-06-27T14:31:29.490084758",
+        "updatedAt": "2025-06-27T14:46:05.153838672",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_nwFKHwDtGA",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"tipoNotificacion\": \"PROMOCIONAL\",\n  \"titulo\": \"Prueba\",\n  \"contenido\": \"Este es un texto de prueba\",\n  \"urlAccion\": \"https://simpleicons.org/?q=spring\",\n  \"eventoOrigen\"  : \"Prueba\",\n  \"referenciaId\": \"P0012\",\n  \"usuariosId\": \"211e9bed-083f-477f-b751-fb1b3ab39cc2\",\n  \"plantillaNotificacionesId\": \"84cbc862-cb78-4a5b-a9d4-5657fdef0829\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "WKJN6wypxe"
+          }
+        ],
+        "method": "PUT",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/notifications/v1/notificaciones/132c5d15-9df3-4a84-9ecd-816ac6da1e18",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_GuzkVH9Zby",
+        "createdAt": "2025-06-27T14:31:28.098317358",
+        "updatedAt": "2025-06-27T15:37:28.908511826",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_nwFKHwDtGA",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/notifications/v1/notificaciones/fa20f83b-119f-4129-800b-140726af8be4",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_zdSmkcsmpv",
+        "createdAt": "2025-06-27T14:31:26.657796654",
+        "updatedAt": "2025-06-27T15:37:00.553197210",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_nwFKHwDtGA",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/notifications/v1/notificaciones",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_iRonpsbyTX",
+        "createdAt": "2025-06-27T14:31:23.697688979",
+        "updatedAt": "2025-06-28T20:53:53.191456397",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_nwFKHwDtGA",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"tipoNotificacion\": \"INFORMATIVA\",\n  \"titulo\": \"Prueba\",\n  \"contenido\": \"Este es un texto de prueba\",\n  \"urlAccion\": \"https://simpleicons.org/?q=aspraaasaianag\",\n  \"eventoOrigen\"  : \"Prueba\",\n  \"referenciaId\": \"I0012\",\n  \"usuariosId\": \"211e9bed-083f-477f-b751-fb1b3ab39cc2\",\n  \"plantillaNotificacionesId\": \"84cbc862-cb78-4a5b-a9d4-5657fdef0829\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "JtISQkH3dB"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/notifications/v1/notificaciones",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_aRRRcmsDq5",
+        "createdAt": "2025-06-27T14:31:20.025226116",
+        "updatedAt": "2025-06-27T14:39:49.707626984",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_GJPuaBY8bF",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/notifications/v1/plantillas-notificaciones/6dc0b516-f798-4306-9ea1-bb85d4aa8cf4",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_95WtD26WVW",
+        "createdAt": "2025-06-27T14:31:18.744748219",
+        "updatedAt": "2025-06-27T15:42:58.268344637",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_GJPuaBY8bF",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombreInterno\": \"alerta_ejemplo_prueba\",\n  \"asuntoPlantilla\": \"Plantilla de alerta de ejemplo\",\n  \"cuerpoPlantilla\": \"Prueba\",\n  \"variablesDisponibles\": {\n    \"prueba\": \"prueba de email\"\n  },\n  \"canalPreferido\": \"EMAIL\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "GFHuzNvDag"
+          }
+        ],
+        "method": "PUT",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/notifications/v1/plantillas-notificaciones/7af42c58-4da4-4e8d-915c-cb277fdc1b4a",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_A3wJa5HeeP",
+        "createdAt": "2025-06-27T14:31:17.584779449",
+        "updatedAt": "2025-06-27T15:37:55.704058667",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_GJPuaBY8bF",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/notifications/v1/plantillas-notificaciones/26a5cec2-3f86-45e5-ba4d-b84216fb0028",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_KkxhGTrmcE",
+        "createdAt": "2025-06-27T14:31:16.073031461",
+        "updatedAt": "2025-06-27T15:12:31.952357940",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_GJPuaBY8bF",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "localhost:8080/api/notifications/v1/plantillas-notificaciones",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8087/api/v1/plantillas-notificaciones",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_PUazZaWDqx",
+        "createdAt": "2025-06-27T14:31:14.240248477",
+        "updatedAt": "2025-06-27T15:08:21.441079975",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_GJPuaBY8bF",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombreInterno\": \"alerta_ejemplo_prueba\",\n  \"asuntoPlantilla\": \"Plantilla de alerta de ejemplo\",\n  \"cuerpoPlantilla\": \"Prueba\",\n  \"variablesDisponibles\": {},\n  \"canalPreferido\": \"EMAIL\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "GaGbir7KnY"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/notifications/v1/plantillas-notificaciones",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_4A4msQTtcu",
+        "createdAt": "2025-06-27T06:19:00.380772028",
+        "updatedAt": "2025-06-27T06:56:09.870414837",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_mzbD4YTJJn",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/reporting/v1/reportes-generados/f3d0e789-6899-4890-b278-f96516dfeb63",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_Ujvdy59gSq",
+        "createdAt": "2025-06-27T06:18:58.948566333",
+        "updatedAt": "2025-06-27T06:59:23.110357560",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_mzbD4YTJJn",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombreReporte\": \"Pruebaa\",\n  \"parametrosReporte\": \"1,2,3,4\",\n  \"urlReporte\": \"https://github.com/Alternatica-C-O-O/BP-Alternatica-Skillinga.git\",\n  \"usuariosId\": \"0b309a9d-f605-49a9-84e8-090783049c0b\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "2zGMeBrV2c"
+          }
+        ],
+        "method": "PUT",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/reporting/v1/reportes-generados/bc71a17c-dd4e-43cb-9dbd-147602ff0ada",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_vMBRavrR3W",
+        "createdAt": "2025-06-27T06:18:57.380275629",
+        "updatedAt": "2025-06-27T06:56:03.870054508",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_mzbD4YTJJn",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/reporting/v1/reportes-generados/f3d0e789-6899-4890-b278-f96516dfeb63",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_gxsjkPdFu2",
+        "createdAt": "2025-06-27T06:18:55.228104062",
+        "updatedAt": "2025-06-27T06:25:26.658222736",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_mzbD4YTJJn",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/reporting/v1/reportes-generados",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_bjbum8eXzC",
+        "createdAt": "2025-06-27T06:18:53.267866624",
+        "updatedAt": "2025-06-27T06:58:56.122580314",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_mzbD4YTJJn",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombreReporte\": \"Prueba\",\n  \"parametrosReporte\": \"1,2,3,4\",\n  \"urlReporte\": \"https://github.com/Alternatica-C-O-O/BP-Alternatica-Skillinga.git\",\n  \"usuariosId\": \"0b309a9d-f605-49a9-84e8-090783049c0b\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "UbnCiFxtGk"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/reporting/v1/reportes-generados",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_8Ey942y5ru",
+        "createdAt": "2025-06-27T06:18:37.265693201",
+        "updatedAt": "2025-06-27T06:54:20.561242374",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_43EFhiWmdh",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/reporting/v1/logs-actividad/c74ebb33-84ef-4657-9ef0-975b0f0b6f43",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_7zeQHuzy3o",
+        "createdAt": "2025-06-27T06:18:34.049445964",
+        "updatedAt": "2025-06-27T06:54:10.432057077",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_43EFhiWmdh",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/reporting/v1/logs-actividad/c74ebb33-84ef-4657-9ef0-975b0f0b6f43",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_DcWNA5zVt5",
+        "createdAt": "2025-06-27T06:18:32.609211084",
+        "updatedAt": "2025-06-27T06:25:51.955744575",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_43EFhiWmdh",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/reporting/v1/logs-actividad",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_Y2RLDeHjPY",
+        "createdAt": "2025-06-27T06:18:30.953184267",
+        "updatedAt": "2025-06-27T06:52:21.986385553",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_43EFhiWmdh",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"tipoEvento\": \"LOGIN\",\n  \"detalleEvento\": \"El usuario ingreso al LMS\",\n  \"ipOrigen\": \"255.211.123.121\",\n  \"usuariosId\": \"8eb16c67-4528-4e8b-a1fe-0915d003aac0\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "ZvCcRFr0WI"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/reporting/v1/logs-actividad",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_tibBFUhGYn",
+        "createdAt": "2025-06-27T04:06:31.609128011",
+        "updatedAt": "2025-06-27T06:00:24.259165932",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_cRLeAZWHdH",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/resource-planning/v1/plataformas-virtuales/a60167cc-0bdf-42f5-911c-f40790d3acea",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_vtw5B3ZecW",
+        "createdAt": "2025-06-27T04:06:30.473300059",
+        "updatedAt": "2025-06-27T06:00:17.627278777",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_cRLeAZWHdH",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombrePlataforma\": \"Zooam\",\n  \"url\": \"https://www.canva.com/design/DAGpKaN9fVk/oy0gyijTTrW8VTnHL75AFA/edit\",\n  \"tipo\": \"VIDEOCONFERENCIA\",\n  \"credencialesApi\": \"PYbpaf2zluL2K27gSma\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "3ZdBVdxYk3"
+          }
+        ],
+        "method": "PUT",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/resource-planning/v1/plataformas-virtuales/bed51aa0-85c0-4fbc-8cc0-651893ebd765",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_KMjnCFAq6P",
+        "createdAt": "2025-06-27T04:06:28.904936888",
+        "updatedAt": "2025-06-27T06:00:07.113810458",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_cRLeAZWHdH",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/resource-planning/v1/plataformas-virtuales/a60167cc-0bdf-42f5-911c-f40790d3acea",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_6Br5cGFWcY",
+        "createdAt": "2025-06-27T04:06:26.777158315",
+        "updatedAt": "2025-06-27T05:59:57.784571832",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_cRLeAZWHdH",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/resource-planning/v1/plataformas-virtuales",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_BYhxQA2n8b",
+        "createdAt": "2025-06-27T04:06:24.528981553",
+        "updatedAt": "2025-06-27T05:59:20.419490304",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_AtsW2M4dZY",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/resource-planning/v1/periodos-academicos/8c4219f5-0f95-4a8d-811d-becb6998138b",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_X4xNdkaXsQ",
+        "createdAt": "2025-06-27T04:06:23.072251873",
+        "updatedAt": "2025-06-27T05:59:04.722355473",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_AtsW2M4dZY",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombre\": \"2024-2025 Tercer Semestrea\",\n  \"fechaInicio\": \"2024-10-19\",\n  \"fechaFin\": \"2025-12-31\",\n  \"estado\": \"ACTIVO\",\n  \"tipoPeriodo\": \"VERANO\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "nXqiFmJaNC"
+          }
+        ],
+        "method": "PUT",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/resource-planning/v1/periodos-academicos/608b2b32-9a04-4960-a993-463e37939e57",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_zXvhjPRM3d",
+        "createdAt": "2025-06-27T04:06:21.480077733",
+        "updatedAt": "2025-06-27T05:58:52.424564643",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_AtsW2M4dZY",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/resource-planning/v1/periodos-academicos/13675083-79fa-4176-a176-8fc1b44a5046",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_NEaagQF44c",
+        "createdAt": "2025-06-27T04:06:18.991696057",
+        "updatedAt": "2025-06-27T05:58:00.601578843",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_AtsW2M4dZY",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/resource-planning/v1/periodos-academicos",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_26vJV8FzFM",
+        "createdAt": "2025-06-27T04:06:16.727461060",
+        "updatedAt": "2025-06-27T05:57:19.192781577",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_NGPFxMcS33",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/resource-planning/v1/espacios-fisicos/a570b4c7-a169-4d14-9b31-0a186b8968f2",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_ZfZm65bDum",
+        "createdAt": "2025-06-27T04:06:15.015148330",
+        "updatedAt": "2025-06-27T05:57:11.315328094",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_NGPFxMcS33",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombre\": \"Laboratorio de Química\",\n  \"capacidad\": 40,\n  \"tipoEspacio\": \"LAB\",\n  \"ubicacion\": \"3703 Rowell Street, Spartanburg, South Carolina, United States, 29305\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "CYmCrDsMsE"
+          }
+        ],
+        "method": "PUT",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/resource-planning/v1/espacios-fisicos/640dd2af-07f2-4530-a717-1a98a4e8ce71",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_VYMcQoJe5G",
+        "createdAt": "2025-06-27T04:06:13.022990731",
+        "updatedAt": "2025-06-27T05:56:15.003611743",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_NGPFxMcS33",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/resource-planning/v1/espacios-fisicos/4a404bc2-3046-482f-b7b7-8bde62bd7da4",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_kH2xmwAJ9A",
+        "createdAt": "2025-06-27T04:06:11.494826505",
+        "updatedAt": "2025-06-27T05:55:18.476708666",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_NGPFxMcS33",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/resource-planning/v1/espacios-fisicos",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_HeRRFUHNWA",
+        "createdAt": "2025-06-27T04:06:08.742449888",
+        "updatedAt": "2025-06-27T05:54:16.148011622",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_B83xZVm8S7",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/resource-planning/v1/asignaciones-horario/375cd8df-8231-40b0-bf4d-be5bf467b8c4",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_MGNQHPZBnH",
+        "createdAt": "2025-06-27T04:06:07.470389146",
+        "updatedAt": "2025-06-27T05:54:08.290353979",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_B83xZVm8S7",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"diaSemana\": \"MIERCOLES\",\n  \"horaInicio\": \"16:00:00\",\n  \"horaFin\": \"18:30:00\",\n  \"tipoAsignacion\": \"LABORATORIO\",\n  \"usuariosId\": \"0b309a9d-f605-49a9-84e8-090783049c0b\",\n  \"espacioFisicoId\": \"4a404bc2-3046-482f-b7b7-8bde62bd7da4\",\n  \"plataformaVirtualId\": \"3e280414-2de3-4ee2-ab6a-cbd66b040a9e\",\n  \"cursoOfertadoId\": \"49d8201f-b70b-4c71-974e-366be02374e8\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "SPAFEnvy8j"
+          }
+        ],
+        "method": "PUT",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/resource-planning/v1/asignaciones-horario/1f573efb-6396-4bba-aae6-2a547395f85b",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_VhFF3SqNGX",
+        "createdAt": "2025-06-27T04:06:06.230033853",
+        "updatedAt": "2025-06-27T05:53:27.021814098",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_B83xZVm8S7",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/resource-planning/v1/asignaciones-horario/e961be3a-e87a-4bea-9f8e-61c22257c9df",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_uVju8fk5oQ",
+        "createdAt": "2025-06-27T04:06:05.030057366",
+        "updatedAt": "2025-06-27T05:47:30.465884718",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_B83xZVm8S7",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/resource-planning/v1/asignaciones-horario",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_yzkgARPXPK",
+        "createdAt": "2025-06-27T04:06:03.333559269",
+        "updatedAt": "2025-06-27T05:59:50.206325643",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_cRLeAZWHdH",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombrePlataforma\": \"Meet\",\n  \"url\": \"https://t.co/disserendi/quae/praetereat.dmg?sibia&quibus\",\n  \"tipo\": \"VIDEOCONFERENCIA\",\n  \"credencialesApi\": \"PYbpaf2zluL2K27gSmE3dZL34w3ORcIuj\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "3mkviTIgjC"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/resource-planning/v1/plataformas-virtuales",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_MxaK2Nzwi6",
+        "createdAt": "2025-06-27T04:06:01.685571920",
+        "updatedAt": "2025-06-27T05:57:54.055892581",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_AtsW2M4dZY",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombre\": \"2024-2025 Primer Semestrea\",\n  \"fechaInicio\": \"2024-10-19\",\n  \"fechaFin\": \"2025-12-31\",\n  \"estado\": \"ACTIVO\",\n  \"tipoPeriodo\": \"VERANO\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "dJz8FFNsbv"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/resource-planning/v1/periodos-academicos",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_kdTVPxyHNg",
+        "createdAt": "2025-06-27T04:05:59.645349638",
+        "updatedAt": "2025-06-27T05:55:10.010971259",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_NGPFxMcS33",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombre\": \"Laboratorio de Física\",\n  \"capacidad\": 40,\n  \"tipoEspacio\": \"LAB\",\n  \"ubicacion\": \"3703 Rowell Street, Spartanburg, South Carolina, United States, 29305\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "5F8AqCUrwg"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/resource-planning/v1/espacios-fisicos",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_r9LYTM3uAC",
+        "createdAt": "2025-06-27T04:05:57.613739435",
+        "updatedAt": "2025-06-27T05:46:18.991756269",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_B83xZVm8S7",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"diaSemana\": \"MARTES\",\n  \"horaInicio\": \"16:00:00\",\n  \"horaFin\": \"18:30:00\",\n  \"tipoAsignacion\": \"LABORATORIO\",\n  \"usuariosId\": \"0b309a9d-f605-49a9-84e8-090783049c0b\",\n  \"espacioFisicoId\": \"4a404bc2-3046-482f-b7b7-8bde62bd7da4\",\n  \"plataformaVirtualId\": \"3e280414-2de3-4ee2-ab6a-cbd66b040a9e\",\n  \"cursoOfertadoId\": \"49d8201f-b70b-4c71-974e-366be02374e8\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "2pfVhQ8ITe"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": -1750997157613.0,
+        "url": "http://localhost:8080/api/resource-planning/v1/asignaciones-horario",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_xeV398kxUH",
+        "createdAt": "2025-06-25T15:08:13.107268147",
+        "updatedAt": "2025-06-25T15:58:47.877101498",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_emwE8vdvky",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "[\n  \"ce06111d-6696-4269-bad7-009c30b073fa\",\n  \"085998f6-c05a-4af0-8f7e-b54f100bee10\"\n]"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "KBfIbAkD8J"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": 6999.9998,
+        "url": "http://localhost:8080/api/users/v1/roles/29c3854e-bcc2-4df4-ac86-177a2a5ced5d/permisos",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_7jR5obDbgF",
+        "createdAt": "2025-06-25T15:08:11.146560347",
+        "updatedAt": "2025-06-25T15:59:10.847002764",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_emwE8vdvky",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "[\n  \"ce06111d-6696-4269-bad7-009c30b073fa\",\n  \"085998f6-c05a-4af0-8f7e-b54f100bee10\"\n]"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "etnbM8sQxj"
+          }
+        ],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": 6999.9999,
+        "url": "http://localhost:8080/api/users/v1/roles/dae076eb-fb2a-44f1-9ee5-920a8c45ca5f/permisos",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_tYjkWN4Uk8",
+        "createdAt": "2025-06-25T15:06:46.168560676",
+        "updatedAt": "2025-06-25T17:42:17.434001260",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_QCZdkY8VZY",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "[\n  \"a0d9f19c-d0e6-48ef-abdd-125dc2cdb941\",\n  \"a9b775c3-62e9-4b34-8a5e-113e030745fc\"\n]"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "ehiy3n7eYi"
+          }
+        ],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": 7000.0,
+        "url": "http://localhost:8080/api/users/v1/usuarios/7a046a8b-7e93-4b24-8306-e5fa013fb1d0",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_7qMk4uhVt3",
+        "createdAt": "2025-06-25T14:59:28.104644028",
+        "updatedAt": "2025-06-25T15:48:27.932701899",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_emwE8vdvky",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombreRol\": \"PRUEBAAAAA\",\n  \"descripcion\": \"Este es un Rol de Prueba\",\n  \"permisoIds\": []\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "764Qq0JneW"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": 0.0,
+        "url": "http://localhost:8080/api/users/v1/roles",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_Y4agEF7Bkb",
+        "createdAt": "2025-06-25T14:59:25.632348800",
+        "updatedAt": "2025-06-25T15:41:44.302840977",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_emwE8vdvky",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "localhost:8080/api/users/v1/roles/7e3ddac1-8e6d-4fd3-86e6-4d0c0b377765",
+        "sortPriority": 2000.0,
+        "url": "http://localhost:8080/api/users/v1/roles/7e3ddac1-8e6d-4fd3-86e6-4d0c0b377765",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_QMUZP49S4d",
+        "createdAt": "2025-06-25T14:59:23.960114645",
+        "updatedAt": "2025-06-25T15:54:37.187210328",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_emwE8vdvky",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombreRol\": \"PRUEBU\",\n  \"descripcion\": \"Este es un Rol de Prueba\",\n  \"permisoIds\": []\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "mzXVBwZKvC"
+          }
+        ],
+        "method": "PUT",
+        "name": "",
+        "sortPriority": 3000.0,
+        "url": "http://localhost:8080/api/users/v1/roles/29c3854e-bcc2-4df4-ac86-177a2a5ced5d",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_6fxfEBSRRf",
+        "createdAt": "2025-06-25T14:59:22.432320788",
+        "updatedAt": "2025-06-28T03:47:35.169564807",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_emwE8vdvky",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": 4000.0,
+        "url": "http://localhost:8080/api/users/v1/roles/29c3854e-bcc2-4df4-ac86-177a2a5ced5d",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_FyjEGApkuh",
+        "createdAt": "2025-06-25T14:34:02.489013235",
+        "updatedAt": "2025-06-25T15:27:49.739834610",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_emwE8vdvky",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": 1000.0,
+        "url": "http://localhost:8080/api/users/v1/roles",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_z79hdamVv4",
+        "createdAt": "2025-06-25T14:30:06.283121691",
+        "updatedAt": "2025-06-25T17:42:10.147022856",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_QCZdkY8VZY",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "[\n  \"a0d9f19c-d0e6-48ef-abdd-125dc2cdb941\",\n  \"a9b775c3-62e9-4b34-8a5e-113e030745fc\"\n]"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "zRCX5gepGR"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": 6000.0,
+        "url": "http://localhost:8080/api/users/v1/usuarios/7a046a8b-7e93-4b24-8306-e5fa013fb1d0/roles",
+        "urlParameters": [
+          {
+            "enabled": true,
+            "name": "",
+            "value": "",
+            "id": "BEviyf9KYS"
+          }
+        ]
+      },
+      {
+        "model": "http_request",
+        "id": "rq_vJAhnrUoVw",
+        "createdAt": "2025-06-25T14:21:31.050056240",
+        "updatedAt": "2025-06-28T03:52:28.390822954",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_QCZdkY8VZY",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": 5000.0,
+        "url": "http://localhost:8080/api/users/v1/usuarios/bccd9766-5783-4e0d-b526-241a1b4bbb76",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_TX6RmgPWDM",
+        "createdAt": "2025-06-25T14:20:01.702732524",
+        "updatedAt": "2025-06-25T17:41:34.964960106",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_QCZdkY8VZY",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombre\": \"Juan Joseph\",\n  \"apellido\": \"Gallegos Yanarico\",\n  \"email\": \"jaremgallegosp@gmail.com\",\n  \"clave\": \"11112222\",\n  \"tipoUsuario\": \"INVITADO\",\n  \"rolIds\": []\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "JEXUYzdBvQ"
+          }
+        ],
+        "method": "PUT",
+        "name": "",
+        "sortPriority": 4000.0,
+        "url": "http://localhost:8080/api/users/v1/usuarios/68673d0a-e965-4246-9216-8ce7e6ae12ed",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_f6e6eYuaWX",
+        "createdAt": "2025-06-25T14:19:34.851092395",
+        "updatedAt": "2025-06-25T15:37:20.674301559",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_QCZdkY8VZY",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": 2000.0,
+        "url": "http://localhost:8080/api/users/v1/usuarios/68272c28-40e8-4d7f-9651-1ac0964a7b40",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_ibK2JkpWrK",
+        "createdAt": "2025-06-25T14:17:14.425996186",
+        "updatedAt": "2025-06-25T15:37:26.692834683",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_QCZdkY8VZY",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": 3000.0,
+        "url": "http://localhost:8080/api/users/v1/usuarios/by-email",
+        "urlParameters": [
+          {
+            "enabled": true,
+            "name": "email",
+            "value": "jaremgallegosp@gmail.com",
+            "id": "VRhbsUq5Nm"
+          },
+          {
+            "enabled": true,
+            "name": "",
+            "value": "",
+            "id": "mAB2qVrxrs"
+          }
+        ]
+      },
+      {
+        "model": "http_request",
+        "id": "rq_8CaW7yg3BG",
+        "createdAt": "2025-06-25T14:11:36.223057476",
+        "updatedAt": "2025-06-28T03:52:19.453321050",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_QCZdkY8VZY",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombre\": \"Jarema Joseph\",\n  \"apellido\": \"Gallegos Yanarico\",\n  \"email\": \"jaremgallegosp@gmail.com\",\n  \"clave\": \"12345678\",\n  \"tipoUsuario\": \"INVITADO\",\n  \"rolIds\": []\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "5R5yhqp6nS"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": 0.0,
+        "url": "http://localhost:8080/api/users/v1/usuarios",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_U7dKjH4Wy3",
+        "createdAt": "2025-06-25T14:02:50.364740761",
+        "updatedAt": "2025-06-25T15:35:28.469287711",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_QCZdkY8VZY",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": 1000.0,
+        "url": "http://localhost:8080/api/users/v1/usuarios",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_NYzbN6MVaT",
+        "createdAt": "2025-06-25T13:28:03.181929657",
+        "updatedAt": "2025-06-25T15:38:27.970644980",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_znX6mLXN66",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "DELETE",
+        "name": "",
+        "sortPriority": 4000.0,
+        "url": "http://localhost:8081/api/users/v1/permisos/5da47cf8-07ac-427e-ae4d-6b6791ef79a9",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_3hxhi6KkaU",
+        "createdAt": "2025-06-25T13:26:42.443559766",
+        "updatedAt": "2025-06-25T15:38:07.624763794",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_znX6mLXN66",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombrePermiso\": \"Grabar Videos PRueba\",\n  \"descripcion\": \"Permiso Prueba para Grabar Videos\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "nCXEemZecQ"
+          }
+        ],
+        "method": "PUT",
+        "name": "",
+        "sortPriority": 2000.0,
+        "url": "http://localhost:8080/api/users/v1/permisos/259281b4-933c-4c9a-8c96-d932873da340",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_MJKJ98MiYw",
+        "createdAt": "2025-06-25T13:25:51.949301405",
+        "updatedAt": "2025-06-25T15:38:18.361403705",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_znX6mLXN66",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [],
+        "method": "GET",
+        "name": "",
+        "sortPriority": 3000.0,
+        "url": "http://localhost:8080/api/users/v1/permisos/0ca8070a-3bff-4067-b422-f56e0c2e335f",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_XxVDe49UvM",
+        "createdAt": "2025-06-25T13:23:05.145648539",
+        "updatedAt": "2025-06-25T15:37:59.631156556",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_znX6mLXN66",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n  \"nombrePermiso\": \"Grabar Videos\",\n  \"descripcion\": \"Permiso Prueba para Grabar Videos\"\n}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "tpzZHB3Jn7"
+          }
+        ],
+        "method": "POST",
+        "name": "",
+        "sortPriority": 0.0,
+        "url": "http://localhost:8080/api/users/v1/permisos",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_Cz2zpdN8ik",
+        "createdAt": "2025-06-25T12:51:44.011574322",
+        "updatedAt": "2025-06-25T15:35:45.031125670",
+        "workspaceId": "wk_WuCd9TzU4p",
+        "folderId": "fl_znX6mLXN66",
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "NVI6BhzIq8"
+          }
+        ],
+        "method": "GET",
+        "name": "",
+        "sortPriority": 1000.0,
+        "url": "http://localhost:8080/api/users/v1/permisos",
+        "urlParameters": []
+      }
+    ],
+    "grpcRequests": [],
+    "websocketRequests": []
+  }
+}

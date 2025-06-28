@@ -31,8 +31,7 @@ public record CursoOfertadoRequestDTO(
     @Min(value = 1, message = "La duración debe ser al menos 1 semana")
     Integer duracionSemanas,
 
-    @NotBlank(message = "La modalidad no puede estar vacía")
-    @Size(max = 150, message = "La modalidad no puede exceder 150 caracteres")
+    @NotNull(message = "La modalidad no puede ser nulo")
     ModalidadTipo modalidad,
 
     @NotNull(message = "El ID del periodo académico no puede ser nulo")

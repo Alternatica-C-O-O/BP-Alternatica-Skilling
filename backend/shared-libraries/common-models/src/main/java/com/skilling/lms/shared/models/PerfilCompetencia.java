@@ -18,8 +18,8 @@ import lombok.NoArgsConstructor;
 public class PerfilCompetencia {
 
     @Column("perfil_curricular_id")
-    private UUID perfilCurricularId;
+    private UUID perfilesCurricularesId;
     
     @Column("competencia_id")
-    private UUID competenciaId;
+    private UUID competenciasId;
 }

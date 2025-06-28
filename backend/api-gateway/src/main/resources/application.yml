@@ -11,8 +11,8 @@ spring:
           discovery:
             enabled: true
             locator:
-              enabled: true 
-              lower-case-service-id: true 
+              enabled: true
+              lower-case-service-id: true
 
           routes:
             - id: USERS-SERVICE
@@ -114,15 +114,60 @@ spring:
                     name: financialService
                     fallbackUri: forward:/fallback/financial
 
+  springdoc:
+    api-docs:
+      path: /v3/api-docs
+      enabled: true
+    swagger-ui:
+      path: /swagger-ui.html
+      urls:
+        - name: Users Service
+          url: /v3/api-docs/users-service
+        - name: Curriculum Service
+          url: /v3/api-docs/curriculum-service
+        - name: Resource Planning Service
+          url: /v3/api-docs/resource-planning-service
+        - name: Enrollment Service
+          url: /v3/api-docs/enrollment-service
+        - name: Content Service
+          url: /v3/api-docs/content-service
+        - name: Assessments Service
+          url: /v3/api-docs/assessments-service
+        - name: Notifications Service
+          url: /v3/api-docs/notifications-service
+        - name: Reporting Service
+          url: /v3/api-docs/reporting-service
+        - name: Financial Service
+          url: /v3/api-docs/financial-service
+    group-configs:
+      - group: users-service
+        paths-to-match: /api/users/**
+      - group: curriculum-service
+        paths-to-match: /api/curriculum/**
+      - group: resource-planning-service
+        paths-to-match: /api/resource-planning/**
+      - group: enrollment-service
+        paths-to-match: /api/enrollment/**
+      - group: content-service
+        paths-to-match: /api/content/**
+      - group: assessments-service
+        paths-to-match: /api/assessments/**
+      - group: notifications-service
+        paths-to-match: /api/notifications/**
+      - group: reporting-service
+        paths-to-match: /api/reporting/**
+      - group: financial-service
+        paths-to-match: /api/financial/**
+
 eureka:
   client:
     fetch-registry: true
     register-with-eureka: true
     service-url:
       defaultZone: http://localhost:8761/eureka
-    instance:
-      hostname: localhost
-      prefer-ip-address: true
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
 
 resilience4j:
   circuitbreaker:

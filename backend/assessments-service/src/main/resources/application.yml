@@ -3,22 +3,3 @@ spring:
     name: assessments-service 
   config:
     import: "configserver:http://localhost:8888"
-
-SUPABASE_PROJECT_REF_IMPORTED: jtnsigjcpxhkxhpbotkv
-SUPABASE_DB_PASSWORD: alternatica-skilling
-
-resilience4j:
-  circuitbreaker:
-    instances:
-      enrollmentService:
-        failureRateThreshold: 50
-        waitDurationInOpenState: 5s
-        permittedNumberOfCallsInHalfOpenState: 3
-        slidingWindowType: COUNT_BASED
-        slidingWindowSize: 10
-      usersService:
-        failureRateThreshold: 50
-        waitDurationInOpenState: 5s
-        permittedNumberOfCallsInHalfOpenState: 3
-        slidingWindowType: COUNT_BASED
-        slidingWindowSize: 10

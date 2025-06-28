@@ -9,11 +9,12 @@ import org.springframework.data.repository.reactive.ReactiveCrudRepository;
 import com.skilling.lms.curriculum_service.domains.Modulo;
 
 import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
 
 public interface ModuloRepository extends ReactiveCrudRepository<Modulo, UUID> {
 
     Flux<Modulo> findByCursoOfertadoId(UUID cursoOfertadoId);
-    Flux<Modulo> findByCursoOfertadoIdOrderByOrden(UUID cursoOfertadoId);
+    Flux<Modulo> findByCursoOfertadoIdOrderByOrdenAsc(UUID cursoOfertadoId);
 
     public interface ModuloWithContenidosProjection {
         UUID getId();
@@ -37,4 +38,7 @@ public interface ModuloRepository extends ReactiveCrudRepository<Modulo, UUID> {
            "WHERE m.id = :moduloId " +
            "ORDER BY cm.orden_modulo ASC")
     Flux<ModuloWithContenidosProjection> findModuloWithContenidosById(UUID moduloId);
+
+    Mono<Modulo> findByNombreModuloAndCursoOfertadoId(String nombreModulo, UUID cursoOfertadoId);
+    Mono<Modulo> findByOrdenAndCursoOfertadoId(Integer orden, UUID cursoOfertadoId);
 }

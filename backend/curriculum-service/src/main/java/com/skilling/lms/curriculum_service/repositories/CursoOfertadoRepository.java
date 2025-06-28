@@ -18,6 +18,7 @@ public interface CursoOfertadoRepository extends ReactiveCrudRepository<CursoOfe
     Flux<CursoOfertado> findByPeriodoAcademicoId(UUID periodoAcademicoId);
     Flux<CursoOfertado> findByPlanEstudioId(UUID planEstudioId);
     Flux<CursoOfertado> findByModalidad(ModalidadTipo modalidad);
+    Mono<CursoOfertado> findByNombreCursoAndPeriodoAcademicoId(String nombreCurso, UUID periodoAcademicoId);
 
     public interface CursoOfertadoWithPrerequisitosProjection {
         UUID getId();

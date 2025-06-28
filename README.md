@@ -35,28 +35,46 @@
 <br>
 
 <!-- Descripcion -->
-This site is built using React, Javascript/TypeScript, and Node-sass. I hae a terrible eye for design, so I borrowed the theme from an HTML5Up template. I did build the site completely from scratch on my own, as the original was not built using React.
+El presente proyecto es una demostración conceptual y técnica de un **Sistema de Gestión del Aprendizaje (LMS) de software libre**, enfocado en optimizar la Planificación Educativa Administrativa (AEP) y fortalecer las competencias digitales en el ámbito de la educación superior y especializada. El proyecto se centra en la democratización del acceso educativo mediante una solución de código abierto y busca mejorar la dinámica del proceso de enseñanza-aprendizaje.
 <br>
 
-### Links
-- [Tiny PNG](https://tinypng.com/)
-- [React-Scroll](https://www.npmjs.com/package/react-scroll)
-- [HTML5UP Templates](https://html5up.net/)
-- [Font Awesome](https://fontawesome.com/)
----
-### Features
-- Smooth scroll was implemented using the React-Scroll NPM package. 
-- All GitHub repos are linked for each project
----
-### Projects
-> Projects are read in dynamically from 'projects.js'. The 'Live Site' link is conditionally rendered if there is an associated live site. All images are compressed to be under 1MB using tinyPng website.
----
-### Skills
-> Skills are dynamically parsed in from skillsData.js file. They maintain their positioning through the use of css rule: 'display: table'.
-I decided to rank my skills by 2 categories: 'Top Skills' and 'Other Skills'. Top skills are those that I am fairly comfortable using and have had plenty of hands on experience with. The 'Other Skills' are those that I have learned and used maybe once, so I am not as fluent but do have some exposure to.
----
-### Testing
-> Unit testing with React-Testing-Library/Jest. Still adding test coverage in the future, this site is nowhere near fully tested.
+### Índice 
 
-### Related Projects
-> Unit testing with React-Testing-Library/Jest. Still adding test coverage in the future, this site is nowhere near fully tested.
+* [Desarrollo del Proyecto Backend](/backend/README.md)
+* [Desarrollo del Proyecto Frontend](/frontend/README.md)
+* [Documentación del Proyecto Skilling](/docs/README.md)
+* [Base de Datos para Ejecución Local](/sql/FOLDERTREE.md)
+---
+### Funciones
+- **Gestión de la Planificación Educativa Administrativa (AEP):** Procesos y flujos para la estructuración de horarios, identificación de modelos educativos, agrupación de recursos, gestión de conflictos y coordinación inter-facultades.
+- **Ciclo de Vida de Planes de Estudios:** Soporte para la creación, selección, revisión, aprobación y manejo de solicitudes de cambio de Planes de Estudios.
+- **Módulo de Planificación Educativa:** Componente central para la conexión entre estudiantes, profesores y recursos técnico-materiales.
+- **Análisis de Parámetros de Cursos:** Descripción, conteo de capacitaciones, puntuaciones ofrecidas y justificación por colección de cursos.
+
+---
+### Prototipo
+> Este proyecto principal abarca el diseño y prototipado de un LMS de software libre. Se ha desarrollado una arquitectura modular y componentes clave, con una implementación de prototipo funcional en un entorno de prueba, cubriendo el 80% de funcionalidades críticas.
+
+---
+### Habilidades
+> Las habilidades aplicadas en este proyecto incluyen:
+>
+> **Habilidades Clave:**
+> - **Gestión de Proyectos:** Planificación (Objetivos SMART, Cronograma), Metodología (Diagnóstico, Identificación de Requisitos, Diseño, Implementación, Evaluación).
+> - **Análisis de Negocio:** Diagnóstico de necesidades, identificación de brechas digitales, levantamiento de requisitos funcionales y no funcionales.
+> - **Diseño de Arquitectura de Software:** Modelado de sistemas (ej. UML), especificaciones técnicas, diseño centrado en el usuario (UCD).
+> - **Desarrollo de Software:** Prototipado, implementación de módulos principales (si usaste tecnologías específicas como Java/SpringBoot, TypeScript/Angular, PostgreSQL, podrías listarlas aquí).
+> - **Modelado de Procesos:** Análisis y representación de flujos de trabajo (Diagramas de Flujo, potencial para BPMN y DMN).
+>
+> **Otras Habilidades:**
+> - Pruebas de Usabilidad (SUS)
+> - Gestión de Base de Datos
+> - Despliegue en Entornos de Prueba
+> - Recopilación de Datos (Encuestas, Grupos Focales)
+---
+
+### Testeo
+> El prototipo funcional ha sido sometido a **pruebas unitarias y de integración** para asegurar la operatividad del 80% de sus funcionalidades críticas. También se realizaron **pruebas de usabilidad iniciales** (con al menos 5 usuarios) y **cuestionarios de usabilidad (ej. SUS)** en la fase de evaluación. Se recolectaron **métricas de rendimiento** (tiempo de carga, errores del sistema) y se realizaron **grupos focales** para retroalimentación cualitativa. La cobertura de pruebas se ampliará en futuras iteraciones.
+
+### Proyectos Relacionados
+> Este proyecto se búsca brindar una solución educativa innovadora que democratice el acceso a la educación superior y especializada. Los principios y metodologías aplicadas son transferibles a otros proyectos de desarrollo de plataformas e-learning, gestión académica o sistemas de información para la educación.

@@ -4,15 +4,9 @@ spring:
   config:
     import: "configserver:http://localhost:8888"
   kafka:
-    bootstrap-servers: localhost:9092
-    consumer:
-      group-id: notification-group 
-      auto-offset-reset: earliest # O 'latest'
-      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+    producer:
+      bootstrap-servers: localhost:9093
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
     properties:
-      spring.json.trusted.packages: "*"
       spring.json.add.type.headers: false
-
-SUPABASE_PROJECT_REF_IMPORTED: jtnsigjcpxhkxhpbotkv
-SUPABASE_DB_PASSWORD: alternatica-skilling

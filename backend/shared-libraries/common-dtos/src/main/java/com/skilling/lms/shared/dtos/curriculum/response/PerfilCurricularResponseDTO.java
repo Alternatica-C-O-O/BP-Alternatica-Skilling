@@ -7,6 +7,6 @@ public record PerfilCurricularResponseDTO(
     UUID id,
     String nombrePerfil,
     String descripcion,
-    ModeloEducativoResponseDTO modeloEducativo,
-    Set<CompetenciaResponseDTO> competencias 
+    UUID modeloEducativo,
+    Set<UUID> competencias 
 ) {}

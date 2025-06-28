@@ -14,25 +14,5 @@ spring:
       value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
       auto-offset-reset: earliest
     properties:
-      # TODO: Confiar en los paquetes de DTOs de eventos
       spring.json.trusted.packages: "*"
       spring.json.add.type.headers: false
-
-SUPABASE_PROJECT_REF_IMPORTED: jtnsigjcpxhkxhpbotkv
-SUPABASE_DB_PASSWORD: alternatica-skilling
-
-resilience4j:
-  circuitbreaker:
-    instances:
-      usersService:
-        failureRateThreshold: 50
-        waitDurationInOpenState: 5s
-        permittedNumberOfCallsInHalfOpenState: 3
-        slidingWindowType: COUNT_BASED
-        slidingWindowSize: 10
-      curriculumService:
-        failureRateThreshold: 50
-        waitDurationInOpenState: 5s
-        permittedNumberOfCallsInHalfOpenState: 3
-        slidingWindowType: COUNT_BASED
-        slidingWindowSize: 10

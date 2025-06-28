@@ -8,5 +8,5 @@ public record ModuloResponseDTO(
     Integer orden,
     String descripcion,
     String objetivosAprendizaje,
-    CursoOfertadoResponseDTO cursoOfertado
+    UUID cursoOfertado
 ) {}

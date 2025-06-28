@@ -1,0 +1,105 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ApiGatewayApplication",
+            "request": "launch",
+            "mainClass": "com.skilling.lms.api_gateway.ApiGatewayApplication",
+            "projectName": "api-gateway"
+        },
+        {
+            "type": "java",
+            "name": "AssessmentsServiceApplication",
+            "request": "launch",
+            "mainClass": "com.skilling.lms.assessments_service.AssessmentsServiceApplication",
+            "projectName": "assessments-service"
+        },
+        {
+            "type": "java",
+            "name": "JwtUtil",
+            "request": "launch",
+            "mainClass": "com.skilling.lms.shared.security.JwtUtil",
+            "projectName": "common-security"
+        },
+        {
+            "type": "java",
+            "name": "ConfigServerApplication",
+            "request": "launch",
+            "mainClass": "com.skilling.lms.config_server.ConfigServerApplication",
+            "projectName": "config-server"
+        },
+        {
+            "type": "java",
+            "name": "ContentServiceApplication",
+            "request": "launch",
+            "mainClass": "com.skilling.lms.content_service.ContentServiceApplication",
+            "projectName": "content-service"
+        },
+        {
+            "type": "java",
+            "name": "CurriculumServiceApplication",
+            "request": "launch",
+            "mainClass": "com.skilling.lms.curriculum_service.CurriculumServiceApplication",
+            "projectName": "curriculum-service"
+        },
+        {
+            "type": "java",
+            "name": "EnrollmentServiceApplication",
+            "request": "launch",
+            "mainClass": "com.skilling.lms.enrollment_service.EnrollmentServiceApplication",
+            "projectName": "enrollment-service"
+        },
+        {
+            "type": "java",
+            "name": "FinancialServiceApplication",
+            "request": "launch",
+            "mainClass": "com.skilling.lms.financial_service.FinancialServiceApplication",
+            "projectName": "financial-service"
+        },
+        {
+            "type": "java",
+            "name": "NotificationsServiceApplication",
+            "request": "launch",
+            "mainClass": "com.skilling.lms.notifications_service.NotificationsServiceApplication",
+            "projectName": "notifications-service"
+        },
+        {
+            "type": "java",
+            "name": "ReportingServiceApplication",
+            "request": "launch",
+            "mainClass": "com.skilling.lms.reporting_service.ReportingServiceApplication",
+            "projectName": "reporting-service"
+        },
+        {
+            "type": "java",
+            "name": "ResourcePlanningServiceApplication",
+            "request": "launch",
+            "mainClass": "com.skilling.lms.resource_planning_service.ResourcePlanningServiceApplication",
+            "projectName": "resource-planning-service"
+        },
+        {
+            "type": "java",
+            "name": "ServiceDiscoveryApplication",
+            "request": "launch",
+            "mainClass": "com.skilling.lms.service_discovery.ServiceDiscoveryApplication",
+            "projectName": "service-discovery"
+        },
+        {
+            "type": "java",
+            "name": "UsersServiceApplication",
+            "request": "launch",
+            "mainClass": "com.skilling.lms.users_service.UsersServiceApplication",
+            "projectName": "users-service"
+        }
+    ]
+}

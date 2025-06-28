@@ -23,6 +23,7 @@ import reactor.core.publisher.Mono;
 public class NotificacionServiceImpl implements NotificacionService {
     
     private final NotificacionRepository notificacionRepository;
+    private final NotificacionProducerService notificationProducerService;
 
     private static final String NOTIFICACIONES_SERVICE_CB = "notificacionesServiceCB";
 
@@ -45,7 +46,11 @@ public class NotificacionServiceImpl implements NotificacionService {
                 .build();
 
         return notificacionRepository.save(notificacion)
-                .map(this::toNotificacionesResponseDTO);
+                .flatMap(savedNotificacion -> {
+                    NotificacionesResponseDTO responseDTO = this.toNotificacionesResponseDTO(savedNotificacion);
+                    return notificationProducerService.sendNotificationEvent(notificacion, "NOTIFICACION_CREADA")
+                            .thenReturn(responseDTO);
+                });
     }
 
     @SuppressWarnings("unused")

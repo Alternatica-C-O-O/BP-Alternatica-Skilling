@@ -12,5 +12,5 @@ public record PlanEstudioResponseDTO(
     LocalDate fechaAprobacion,
     GeneralEstado estado,
     LocalDate fechaUltimaActualizacion,
-    ModeloEducativoResponseDTO modeloEducativo
+    UUID modeloEducativo
 ) {}

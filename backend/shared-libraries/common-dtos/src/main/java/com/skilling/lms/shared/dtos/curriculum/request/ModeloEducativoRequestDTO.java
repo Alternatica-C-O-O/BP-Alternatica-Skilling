@@ -21,8 +21,7 @@ public record ModeloEducativoRequestDTO(
     @Size(max = 100, message = "La versión no puede exceder 100 caracteres")
     String version,
 
-    @NotBlank(message = "El estado no puede estar vacío")
-    @Size(max = 150, message = "El estado no puede exceder 150 caracteres")
+    @NotNull(message = "El estado no puede ser nulo")
     GeneralEstado estado,
 
     @NotNull(message = "El ID de usuario no puede ser nulo")
