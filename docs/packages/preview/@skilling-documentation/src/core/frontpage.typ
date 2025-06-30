@@ -37,7 +37,7 @@
     #v(0.7em, weak: true)
     #text(16pt, teacher)
   ]
-  v(1em)
+  v(3em)
 
   text(12pt, "Autores")
   v(0.9em, weak: true)

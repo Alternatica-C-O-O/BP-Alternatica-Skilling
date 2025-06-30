@@ -2,7 +2,7 @@
 
 #set text(font: "Carlito", lang: "es")
 #show: skilling-presentation.with(
-  title: "Diseño e Implementación de un Sistema de Gestión del Aprendizaje (LMS) Interactiva para la Optimización Dinámica del Proceso Educativo",
+  title: "Diseño e Implementación de un Sistema de Gestión del Aprendizaje (LMS) Interactiva para la Optimización Dinámica del Proceso Educativo Superior Peruano",
   authors: (
     // "Aquino Fernandez, Angie Lorena",
     // "Fournier Soto, Fabrizio Eduardo",
@@ -10,7 +10,6 @@
     // "Rios Villegas, Diego Alessandro",
     "Saavedra Guisvert, Natalia Dessyre",
     "Ortiz Herrera, Ana Paula",
-    "Rios Tandaypan, Freyser Leodan",
     "Gallegos Yanarico, Jarem Joseph",
   ),
   date: datetime.today().display("[day] [month repr:long] [year]"),

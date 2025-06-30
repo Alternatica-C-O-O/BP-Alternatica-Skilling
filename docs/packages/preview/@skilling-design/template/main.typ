@@ -8,18 +8,16 @@
     // "Fournier Soto, Fabrizio Eduardo",
     // "Marcano Abreu, Jesús Francisco",
     // "Rios Villegas, Diego Alessandro",
-    "Saavedra Guisvert, Natalia Dessyre",
     "Ortiz Herrera, Ana Paula",
-    "Rios Tandaypan, Freyser Leodan",
-    "Gallegos Yanarico, Jarem Joseph",
+    "Gallegos Yanarico, Jarem Joseph (coordinador)",
   ),
   date: datetime.today().display("[day] [month repr:long] [year]"),
   course: "Experiencias Formativas en Situaciones Reales de Trabajo V",
-  //course: "Desarrollo de Aplicaciones Web II",
+  // course: "Desarrollo de Aplicaciones Web II",
   educational-center: "CIBERTEC",
   department: "Tecnologías de la Información & Ingeniería",
   // department: "Tecnologías de la Información",
-  department-full-title: "Computación e Informática - Industrial y Sistemas",
+  department-full-title: "Desarrollado en IES • Proyecto Productivo",
   // department-full-title: "Computación e Informática",
   address-i: "Av. Porongoche 500, Paucarpata",
   address-ii: "(054) 603-535",
@@ -31,19 +29,11 @@
   cicle: "Sexto Ciclo",
   before: (
     content: include "preface/contents.typ",
-    readers-guide: include "preface/readers-guide.typ"
   )
 )
 
-#include "documents/resumen.typ"
 #include "documents/logica-negocio.typ"
 #include "documents/arquitectura-sistema.typ"
 #include "documents/microservicios-sistema.typ"
-#include "documents/mensajeria-eventos.typ"
 #include "documents/db-persistencia.typ"
 #include "documents/interfaz-usuario.typ"
-#include "documents/seguridad-resiliencia.typ"
-#include "documents/integracion-despliegue.typ"
-#include "documents/monitoreo-logging.typ"
-
-#pagebreak()
